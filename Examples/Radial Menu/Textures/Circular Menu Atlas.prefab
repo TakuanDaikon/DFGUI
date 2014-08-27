@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Circular Menu Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f514313262e3d141ad017b60809752a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: b3a8741db52a3f844a17ca91abc213ea, type: 2}
+  items:
+  - name: axe1-normal
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 1d1eb055b83b3e14e84734190f5b3215
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe1-selected
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .125976562
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 61d752a935662714bb8ef15b7db3a818
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe2-normal
+    region:
+      serializedVersion: 2
+      x: .125976562
+      y: 0
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 8c7dacdeaca94a7448ff12575e0dce91
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe2-selected
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .251953125
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: b1704bbc44f9f2643ab17454ce452cdc
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe3-normal
+    region:
+      serializedVersion: 2
+      x: .125976562
+      y: .125976562
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: f316c26536368ba47adf6feadde2975d
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe3-selected
+    region:
+      serializedVersion: 2
+      x: .251953125
+      y: 0
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 2314f1be4f7c4d14a9a7633c64ae1c85
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe4-normal
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .377929688
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: ec43ad159f603bb448a621d6695195ed
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe4-selected
+    region:
+      serializedVersion: 2
+      x: .125976562
+      y: .251953125
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 5242180aa7732a9488ce11baf99280d5
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe5-normal
+    region:
+      serializedVersion: 2
+      x: .251953125
+      y: .125976562
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 95b092096bba37042a7d15393421f032
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe5-selected
+    region:
+      serializedVersion: 2
+      x: .377929688
+      y: 0
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: f1a05e68326796748ab83b5471b957db
+    deleted: 0
+    texture: {fileID: 0}
+  - name: back-normal
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .50390625
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: c93886c57a1c05244804cc7583067f6a
+    deleted: 0
+    texture: {fileID: 0}
+  - name: back-selected
+    region:
+      serializedVersion: 2
+      x: .125976562
+      y: .377929688
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 8aa99ed3733979d4788293750f3351cf
+    deleted: 0
+    texture: {fileID: 0}
+  - name: biohazard
+    region:
+      serializedVersion: 2
+      x: .125976562
+      y: .629882812
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: e3ecec988466dda4b8ccfcceb143b555
+    deleted: 0
+    texture: {fileID: 0}
+  - name: close-normal
+    region:
+      serializedVersion: 2
+      x: .251953125
+      y: .251953125
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 958b9674d73d6974d8bedc1fa0c69099
+    deleted: 0
+    texture: {fileID: 0}
+  - name: close-selected
+    region:
+      serializedVersion: 2
+      x: .377929688
+      y: .125976562
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: a1b00110cc134ec45a86eedd79f11ecb
+    deleted: 0
+    texture: {fileID: 0}
+  - name: morningstar1-normal
+    region:
+      serializedVersion: 2
+      x: .50390625
+      y: 0
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 3c77d796ac952de4789ff8419926f271
+    deleted: 0
+    texture: {fileID: 0}
+  - name: morningstar1-selected
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .629882812
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 22088df37599f9549845675770dce3ec
+    deleted: 0
+    texture: {fileID: 0}
+  - name: open-normal
+    region:
+      serializedVersion: 2
+      x: .125976562
+      y: .50390625
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 6b52103fc1431374a9b40c0fd0794903
+    deleted: 0
+    texture: {fileID: 0}
+  - name: open-selected
+    region:
+      serializedVersion: 2
+      x: .251953125
+      y: .377929688
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: ab85cfbb96ed8c9428061e90c71415e3
+    deleted: 0
+    texture: {fileID: 0}
+  - name: poison
+    region:
+      serializedVersion: 2
+      x: .251953125
+      y: .50390625
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 113e5dcf0130e2c41afba5e74c0b98db
+    deleted: 0
+    texture: {fileID: 0}
+  - name: radiation
+    region:
+      serializedVersion: 2
+      x: .377929688
+      y: .377929688
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 6b0d40279ffc90b4497d0362126e594c
+    deleted: 0
+    texture: {fileID: 0}
+  - name: sword1-normal
+    region:
+      serializedVersion: 2
+      x: .377929688
+      y: .251953125
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: d6e16eb648d883e4a987ab7782a6ce31
+    deleted: 0
+    texture: {fileID: 0}
+  - name: sword1-selected
+    region:
+      serializedVersion: 2
+      x: .50390625
+      y: .125976562
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 9637abf92e4e67243a7e82ff33cd6602
+    deleted: 0
+    texture: {fileID: 0}
+  - name: sword2-normal
+    region:
+      serializedVersion: 2
+      x: .629882812
+      y: 0
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 1c44b103656302b4e8edd6f9836ce650
+    deleted: 0
+    texture: {fileID: 0}
+  - name: sword2-selected
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .755859375
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: e7d8ff8271b74b6439d17ce45be12f72
+    deleted: 0
+    texture: {fileID: 0}
+  - name: warning
+    region:
+      serializedVersion: 2
+      x: .50390625
+      y: .251953125
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 3088ae7495fd3de40b8009f8d8cb9aca
+    deleted: 0
+    texture: {fileID: 0}
+  generator: 0
+  imageFileGUID: 
+  dataFileGUID: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

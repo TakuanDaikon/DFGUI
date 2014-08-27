@@ -1,0 +1,1023 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_QueryMode: 1
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    viewCellSize: 1
+    bakeMode: 2
+    memoryUsage: 10485760
+--- !u!104 &2
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_ObjectHideFlags: 0
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  m_LightProbes: {fileID: 0}
+  m_Lightmaps: []
+  m_LightmapsMode: 1
+  m_BakedColorSpace: 0
+  m_UseDualLightmapsInForward: 0
+  m_LightmapEditorSettings:
+    m_Resolution: 50
+    m_LastUsedResolution: 0
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_BounceBoost: 1
+    m_BounceIntensity: 1
+    m_SkyLightColor: {r: .860000014, g: .930000007, b: 1, a: 1}
+    m_SkyLightIntensity: 0
+    m_Quality: 0
+    m_Bounces: 1
+    m_FinalGatherRays: 1000
+    m_FinalGatherContrastThreshold: .0500000007
+    m_FinalGatherGradientThreshold: 0
+    m_FinalGatherInterpolationPoints: 15
+    m_AOAmount: 0
+    m_AOMaxDistance: .100000001
+    m_AOContrast: 1
+    m_LODSurfaceMappingDistance: 1
+    m_Padding: 0
+    m_TextureCompression: 0
+    m_LockAtlas: 0
+--- !u!196 &5
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    widthInaccuracy: 16.666666
+    heightInaccuracy: 10
+  m_NavMesh: {fileID: 0}
+--- !u!1 &225737745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 225737751}
+  - 23: {fileID: 225737750}
+  - 114: {fileID: 225737749}
+  - 65: {fileID: 225737748}
+  - 33: {fileID: 225737747}
+  - 114: {fileID: 225737746}
+  m_Layer: 8
+  m_Name: UI Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &225737746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225737745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df815fdbf4656dc48935134bfd9accda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiScale: 1
+  uiScaleLegacy: 1
+  inputManager: {fileID: 225737749}
+  fixedWidth: 800
+  fixedHeight: 600
+  atlas: {fileID: 11400000, guid: 061b63b910d71734eb8a953efb83a358, type: 2}
+  defaultFont: {fileID: 11400000, guid: 5a5e0c230ac62a04f8a31145e6ab7bc0, type: 2}
+  mergeMaterials: 0
+  pixelPerfectMode: 1
+  renderCamera: {fileID: 684025307}
+  generateNormals: 0
+  consumeMouseEvents: 0
+  overrideCamera: 0
+  renderQueueBase: 3000
+  guides: []
+--- !u!33 &225737747
+MeshFilter:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225737745}
+  m_Mesh: {fileID: 0}
+--- !u!65 &225737748
+BoxCollider:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225737745}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.66666675, y: 2, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &225737749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225737745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd6151a8ec1a564aa32a21fda772599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderCamera: {fileID: 684025307}
+  useTouch: 1
+  useMouse: 1
+  useJoystick: 0
+  joystickClickButton: 330
+  horizontalAxis: NavHorizontal
+  verticalAxis: NavVertical
+  axisPollingInterval: .150000006
+  retainFocus: 0
+  touchClickRadius: 10
+  hoverStartDelay: .25
+  hoverNotifactionFrequency: .100000001
+--- !u!23 &225737750
+Renderer:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225737745}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!4 &225737751
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225737745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -100, y: 100, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2045450702}
+  - {fileID: 684025308}
+  m_Father: {fileID: 0}
+--- !u!1 &443235258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 443235259}
+  - 65: {fileID: 443235261}
+  - 114: {fileID: 443235260}
+  m_Layer: 8
+  m_Name: track
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443235259
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443235258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1379172626}
+--- !u!114 &443235260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443235258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89bcc79f0282bd408fde445bb1b05a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchorStyle: 15
+  isEnabled: 1
+  isVisible: 1
+  isInteractive: 1
+  tooltip: 
+  pivot: 0
+  zindex: 0
+  color:
+    serializedVersion: 2
+    rgba: 4294967295
+  disabledColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  size: {x: 10, y: 580}
+  minSize: {x: 0, y: 0}
+  maxSize: {x: 0, y: 0}
+  clipChildren: 0
+  tabIndex: -1
+  canFocus: 0
+  autoFocus: 0
+  layout:
+    anchorStyle: 15
+    margins:
+      left: 0
+      top: -0
+      right: 0
+      bottom: 0
+    owner: {fileID: 443235260}
+  renderOrder: 3
+  isLocalized: 0
+  hotZoneScale: {x: 1, y: 1}
+  allowSignalEvents: 1
+  atlas: {fileID: 11400000, guid: 061b63b910d71734eb8a953efb83a358, type: 2}
+  spriteName: frame-basic-opaque
+  flip: 0
+  fillDirection: 0
+  fillAmount: 1
+  invertFill: 0
+--- !u!65 &443235261
+BoxCollider:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443235258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .0333333351, y: 1.9333334, z: .00100000005}
+  m_Center: {x: .0166666675, y: -.966666698, z: 0}
+--- !u!1 &684025306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 684025308}
+  - 20: {fileID: 684025307}
+  - 114: {fileID: 684025309}
+  m_Layer: 0
+  m_Name: UI Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &684025307
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684025306}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: -1
+  far clip plane: 5
+  field of view: 60
+  orthographic: 1
+  orthographic size: 1
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 256
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+--- !u!4 &684025308
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684025306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 225737751}
+--- !u!114 &684025309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684025306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365c41e0d51e92a42a3a628739c6386a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1379172625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1379172626}
+  - 65: {fileID: 1379172628}
+  - 114: {fileID: 1379172627}
+  m_Layer: 8
+  m_Name: VertScrollbar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1379172626
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1379172625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.6166687, y: -.0333328247, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1759913916}
+  - {fileID: 443235259}
+  m_Father: {fileID: 2045450702}
+--- !u!114 &1379172627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1379172625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e6d409ec85d394c8a2a7fb453403e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchorStyle: 11
+  isEnabled: 1
+  isVisible: 1
+  isInteractive: 1
+  tooltip: 
+  pivot: 0
+  zindex: 0
+  color:
+    serializedVersion: 2
+    rgba: 4294967295
+  disabledColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  size: {x: 10, y: 580}
+  minSize: {x: 0, y: 0}
+  maxSize: {x: 0, y: 0}
+  clipChildren: 0
+  tabIndex: -1
+  canFocus: 0
+  autoFocus: 0
+  layout:
+    anchorStyle: 11
+    margins:
+      left: 785
+      top: 10
+      right: 5
+      bottom: 9
+    owner: {fileID: 1379172627}
+  renderOrder: 2
+  isLocalized: 0
+  hotZoneScale: {x: 1, y: 1}
+  allowSignalEvents: 1
+  atlas: {fileID: 11400000, guid: 061b63b910d71734eb8a953efb83a358, type: 2}
+  orientation: 1
+  rawValue: 0
+  minValue: 0
+  maxValue: 5503
+  stepSize: 1
+  scrollSize: 579
+  increment: 18
+  thumb: {fileID: 1759913917}
+  track: {fileID: 443235260}
+  incButton: {fileID: 0}
+  decButton: {fileID: 0}
+  thumbPadding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  autoHide: 1
+--- !u!65 &1379172628
+BoxCollider:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1379172625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .0333333351, y: 1.9333334, z: .00100000005}
+  m_Center: {x: .0166666675, y: -.966666698, z: 0}
+--- !u!1 &1759913915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1759913916}
+  - 65: {fileID: 1759913918}
+  - 114: {fileID: 1759913917}
+  m_Layer: 8
+  m_Name: thumb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1759913916
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1759913915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1379172626}
+--- !u!114 &1759913917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1759913915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89bcc79f0282bd408fde445bb1b05a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchorStyle: 5
+  isEnabled: 1
+  isVisible: 1
+  isInteractive: 1
+  tooltip: 
+  pivot: 0
+  zindex: 1
+  color:
+    serializedVersion: 2
+    rgba: 4294967040
+  disabledColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  size: {x: 10, y: 61.0248947}
+  minSize: {x: 0, y: 0}
+  maxSize: {x: 0, y: 0}
+  clipChildren: 0
+  tabIndex: -1
+  canFocus: 0
+  autoFocus: 0
+  layout:
+    anchorStyle: 5
+    margins:
+      left: 0
+      top: -0
+      right: 0
+      bottom: 518.975098
+    owner: {fileID: 1759913917}
+  renderOrder: 4
+  isLocalized: 0
+  hotZoneScale: {x: 1, y: 1}
+  allowSignalEvents: 1
+  atlas: {fileID: 11400000, guid: 061b63b910d71734eb8a953efb83a358, type: 2}
+  spriteName: BLANK_TEXTURE
+  flip: 0
+  fillDirection: 0
+  fillAmount: 1
+  invertFill: 0
+--- !u!65 &1759913918
+BoxCollider:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1759913915}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .0333333351, y: .203416318, z: .00100000005}
+  m_Center: {x: .0166666675, y: -.101708159, z: 0}
+--- !u!1 &2045450699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2045450702}
+  - 65: {fileID: 2045450701}
+  - 114: {fileID: 2045450700}
+  m_Layer: 8
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2045450700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2045450699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e0e5854c8aa374597bb28d9adf228a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchorStyle: 15
+  isEnabled: 1
+  isVisible: 1
+  isInteractive: 1
+  tooltip: 
+  pivot: 0
+  zindex: 0
+  color:
+    serializedVersion: 2
+    rgba: 4294967295
+  disabledColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  size: {x: 800, y: 599}
+  minSize: {x: 0, y: 0}
+  maxSize: {x: 0, y: 0}
+  clipChildren: 0
+  tabIndex: -1
+  canFocus: 0
+  autoFocus: 0
+  layout:
+    anchorStyle: 15
+    margins:
+      left: 0
+      top: 0
+      right: 0
+      bottom: 1
+    owner: {fileID: 2045450700}
+  renderOrder: 1
+  isLocalized: 0
+  hotZoneScale: {x: 1, y: 1}
+  allowSignalEvents: 1
+  atlas: {fileID: 11400000, guid: 061b63b910d71734eb8a953efb83a358, type: 2}
+  backgroundSprite: frame-basic-opaque
+  backgroundColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  padding:
+    m_Left: 5
+    m_Right: 5
+    m_Top: 5
+    m_Bottom: 5
+--- !u!65 &2045450701
+BoxCollider:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2045450699}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.66666675, y: 1.99666667, z: .00100000005}
+  m_Center: {x: 1.33333337, y: -.998333335, z: 0}
+--- !u!4 &2045450702
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2045450699}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.33333588, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2087820544}
+  - {fileID: 1379172626}
+  m_Father: {fileID: 225737751}
+--- !u!1 &2058019273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2058019278}
+  - 20: {fileID: 2058019277}
+  - 92: {fileID: 2058019276}
+  - 124: {fileID: 2058019275}
+  - 81: {fileID: 2058019274}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &2058019274
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2058019273}
+  m_Enabled: 1
+--- !u!124 &2058019275
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2058019273}
+  m_Enabled: 1
+--- !u!92 &2058019276
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2058019273}
+  m_Enabled: 1
+--- !u!20 &2058019277
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2058019273}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+--- !u!4 &2058019278
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2058019273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &2087820543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2087820544}
+  - 65: {fileID: 2087820546}
+  - 114: {fileID: 2087820545}
+  - 114: {fileID: 2087820547}
+  m_Layer: 8
+  m_Name: rtSample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2087820544
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2087820543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0333328247, y: -.0333328247, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2045450702}
+--- !u!114 &2087820545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2087820543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420359c2850ee3e42b9a6589bc671536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchorStyle: 271
+  isEnabled: 1
+  isVisible: 1
+  isInteractive: 1
+  tooltip: 
+  pivot: 0
+  zindex: 1
+  color:
+    serializedVersion: 2
+    rgba: 4294901502
+  disabledColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  size: {x: 770, y: 579}
+  minSize: {x: 0, y: 0}
+  maxSize: {x: 0, y: 0}
+  clipChildren: 0
+  tabIndex: -1
+  canFocus: 1
+  autoFocus: 1
+  layout:
+    anchorStyle: 271
+    margins:
+      left: .0125000002
+      top: .0166944917
+      right: .975000024
+      bottom: .983305514
+    owner: {fileID: 2087820545}
+  renderOrder: 5
+  isLocalized: 0
+  hotZoneScale: {x: 1, y: 1}
+  allowSignalEvents: 1
+  atlas: {fileID: 11400000, guid: 061b63b910d71734eb8a953efb83a358, type: 2}
+  font: {fileID: 11400000, guid: 32f3a9f198f13d041a8c9bdf08a834bb, type: 2}
+  text: "<h1 color=yellow style=\"vertical-align: top; margin: 0;\"><img src=\"dfgui-icon\"
+    height=100 color=white> Using Rich Text Markup</h1>\r\n\r\n<h2 color=cyan>Introduction</h2>\r\n<p
+    padding=\"5 10\" style=\"text-align: justify; margin: 25px\">\r\nThe DF-GUI Rich
+    Text Control uses Unity's dynamic fonts system to render TTF or OTF fonts \r\nwithout
+    requiring the use of a texture atlas. The dynamic font system builds a dynamic
+    \r\ntexture atlas internally \"on demand\", allowing you to use multiple font
+    styles (like <b>bold</b> and \r\n<i>italic</i>) as well as <font size=\"125%\">different
+    sizes</font> all in the same line of text.\r\n</p>\r\n<p style=\"text-align: justify;
+    margin: 25px\">This also allows you to mix and match character sets in the same
+    label, like the following:\r\n\t<ul>\r\n\t\t<li>Japanese: <span style=\"color:
+    orange\">\u65E5\u672C\u8A9E</span></li>\r\n\t\t<li>Chinese: <span style=\"color:
+    orange\">\u6C49\u8BED/\u6F22\u8A9E</span></li>\r\n\t\t<li>Korean: <span style=\"color:
+    orange\">\uD55C\uAD6D\uC5B4/\uC870\uC120\uB9D0</span></li>\r\n\t\t<li>Hebrew:
+    <span style=\"color: orange\">\u05E2\u05B4\u05D1\u05B0\u05E8\u05B4\u05D9\u05EA</span></li>\r\n\t\t<li>Greek:
+    <span style=\"color: orange\">\u03BA\u03C1\u03AF\u03BD\u03C9</span></li>\r\n\t\t<li>etc...</li>\r\n\t</ul>\r\n</p>\r\n<p
+    style=\"text-align: justify; margin: 25px\">\r\nAll text in this panel was rendered
+    with a single <b>dfRichTextLabel</b> control. \r\nAll font styles, colors, sizes,
+    and effects were specified through the use of an \r\nHTML-like markup that has
+    been specifically designed to be familiar to people \r\nwho have experience with
+    HTML. Much like <a href=\"http://docs.unity3d.com/Documentation/Manual/StyledText.html\"
+    style=\"color: Green; font-style: bold\">Unity&#39;s built-in &quot;rich text&quot;
+    markup</a>, \r\nthe <strong>dfRichTextLabel</strong> control uses a subset of
+    the specified HTML tags to control \r\ntext formatting, but unlike Unity&#39;s
+    solution the tags that <strong>dfRichTextLabel \r\n</strong>uses \r\nsupport a
+    much higher degree of compatibility with the HTML specification. In \r\nfact,
+    the source markup for this sample was created in Visual Studio&#39;s HTML \r\neditor.</p>\r\n\r\n<h2
+    color=cyan>Markup</h2>\r\n<p>\r\n\tBelow are some notes about the markup tags
+    available to the <strong>dfRichTextLabel</strong> \r\n\tcontrol:</p>\r\n\t\r\n<h3>Bold
+    (&lt;b&gt; or &lt;strong&gt;)</h3>\r\n<p style=\"margin: 25px\">\r\n\tRenders
+    any inner text in <strong>bold</strong>. For example, the text &quot;DF-GUI \r\n\tis
+    the &lt;b&gt;best&lt;/b&gt; UI library for Unity&quot; results in the following:</p>\r\n<p
+    style=\"margin: 25px; background-color: #111111; color: white;\">DF-GUI is the
+    <strong>best</strong> UI library for Unity</p>\r\n\r\n<h3>Italic (&lt;i&gt; or
+    &lt;em&gt;)</h3>\r\n<p style=\"margin: 25px\">\r\n\tRenders any inner text in
+    <em>italic</em>. For example, the text &quot;We are \r\n\t&lt;i&gt;always&lt;/i&gt;
+    working on new features&quot; results in the following:</p>\r\n<p style=\"margin:
+    25px; background-color: #111111; color: white;\">We are <em>always</em> working
+    on new features</p>\r\n\r\n<h3>Line Break (&lt;br/&gt;)</h3>\r\n<p style=\"margin:
+    25px\">Inserts a single line break in the text (carriage return), and \r\nis useful
+    in sitations where the division of lines is significant, such as a poem or address,
+    \r\nand where you do not wish to have a gap between lines, as happens with the
+    <b>&lt;p&gt;</b> tag.\r\n</p>\r\n<p style=\"margin: 25px; background-color: #111111;
+    color: white;\">\r\n\tAn old silent pond...<br />\r\n\tA frog jumps into the pond,<br
+    />\r\n\tsplash! Silence again.<br />\r\n\t-- <i>Basho</i>\r\n</p>\r\n<p style=\"margin:
+    25px;\">\r\n\tNote that the &lt;br&gt; tag is an \"empty tag\", which means that
+    there is no end tag \r\n\tnecessary, and it is not used to surround other content.
+    It can optionally be used in any\r\n\tof the following forms: <b>&lt;br&gt;</b>,
+    <b>&lt;br/&gt;</b>, or <b>&lt;br /&gt;</b>\r\n</p>\r\n\r\n<h3>Preformatted (&lt;pre&gt;)</h3>\r\n<p
+    style=\"margin: 25px\">Represents pre-formatted text, with all whitespace and
+    line breaks\r\npreserved (Normally all whitespace is collapsed). This is useful
+    for displaying source\r\ncode, for instance:\r\n</p>\r\n<pre style=\"margin: 25px;
+    font-family: fonts/monospace (dynamic); font-size: 14; color: #e0e0e0; background-color:
+    #111111; padding: 10;\"><span style=\"color: #ecec8b;\">using</span>\_<span style=\"color:
+    #d2d2d2;\">UnityEngine</span>;\r\n\r\n<span style=\"color: #ecec8b;\">using</span>\_<span
+    style=\"color: #d2d2d2;\">System</span>;\r\n<span style=\"color: #ecec8b;\">using</span>
+    <span style=\"color: #d2d2d2;\">System</span><span style=\"color: silver;\">.</span><span
+    style=\"color: #d2d2d2;\">Collections</span>;\r\n<span style=\"color: #ecec8b;\">using</span>\_<span
+    style=\"color: #d2d2d2;\">System</span><span style=\"color: silver;\">.</span><span
+    style=\"color: #d2d2d2;\">Collections</span><span style=\"color: silver;\">.</span><span
+    style=\"color: #d2d2d2;\">Generic</span>;\r\n\r\n<span style=\"color: #ecec8b;\">public</span>
+    <span style=\"color: #ecec8b;\">class</span> <span style=\"color: cyan;\">CurrentTimeLabel</span>\_:\_<span
+    style=\"color: cyan;\">MonoBehaviour</span>\_\r\n{\r\n\r\n\t<span style=\"color:
+    #ecec8b;\">private</span>\_<span style=\"color: cyan;\">dfLabel</span>\_<span
+    style=\"color: #d2d2d2;\">_label</span>;\r\n\r\n\t<span style=\"color: #00c400;\">//\_Called\_by\_Unity\_just\_before\_any\_of\_the\_Update\_methods\_is\_called\_the\_first\_time.</span>\r\n\t<span
+    style=\"color: #ecec8b;\">public</span>\_<span style=\"color: #ecec8b;\">void</span>\_<span
+    style=\"color: #d2d2d2;\">Start</span>()\r\n\t{\r\n\t\t<span style=\"color: #00c400;\">//\_Obtain\_a\_reference\_to\_the\_dfLabel\_instance\_attached\_to\_this\_object</span>\r\n\t\t<span
+    style=\"color: #ecec8b;\">this</span><span style=\"color: silver;\">.</span><span
+    style=\"color: #d2d2d2;\">_label</span>\_<span style=\"color: silver;\">=</span>\_<span
+    style=\"color: #d2d2d2;\">GetComponent</span><span style=\"color: silver;\">&lt;</span><span
+    style=\"color: cyan;\">dfLabel</span><span style=\"color: silver;\">&gt;</span>();\r\n\t}\r\n\r\n\t<span
+    style=\"color: #ecec8b;\">public</span>\_<span style=\"color: #ecec8b;\">void</span>\_<span
+    style=\"color: #d2d2d2;\">Update</span>()\r\n\t{\r\n\t\t<span style=\"color: #d2d2d2;\">_label</span><span
+    style=\"color: silver;\">.</span><span style=\"color: #d2d2d2;\">Text</span>\_<span
+    style=\"color: silver;\">=</span>\_<span style=\"color: #2b91af;\">DateTime</span><span
+    style=\"color: silver;\">.</span><span style=\"color: #d2d2d2;\">Now</span><span
+    style=\"color: silver;\">.</span><span style=\"color: #d2d2d2;\">ToShortTimeString</span>();\r\n\t}\r\n\r\n}</pre>\r\n<p
+    style=\"margin: 25px\">The <b>&lt;pre&gt;</b> tag supports the following options:\r\n<ul>\r\n\t<li><b>font</b>
+    - The relative path of any dfDynamicFont prefab in your Resources\r\n\tfolder.
+    Note that the font prefab must be located in or under the Resources folder\r\n\tin
+    order to be dynamically loaded by name. In the example above, the <b>Monospace</b>\r\n\tfont
+    was used.</li>\r\n\t<li><b>size</b> - The font size, in pixels. In the example
+    above, size <b>14</b> was\r\n\t\tused.</li>\r\n\t<li><b>style</b> - The font style.
+    May be <b>Normal</b>, <b>Bold</b>, or <b>Italic</b>.</li>\r\n\t<li><b>color</b>
+    - The color of the text. See the <b>Colors</b> section for more information about
+    \r\n\tvalid values.</li>\r\n\t<li><b>background</b> - The background color of
+    the text. In the example above, the \r\n\tvalue <b>#111111</b> was used. See the
+    <b>Colors</b> section for more information about \r\n\tvalid values.</li>\r\n\t<li><b>lineheight</b>
+    - The height of each line of text. Useful for when you want to \r\n\tadjust the
+    spacing between lines.</li>\r\n</ul>\r\n</p>\r\n\r\n<h3>Paragraph (&lt;p&gt;)</h3>\r\n<p
+    style=\"margin: 25px\">\r\n\tRepresents a paragraph of text, with a space (margin)
+    between each paragraph and\r\n\tthe text or paragraphs that come before and after
+    the paragraph.\r\n</p>\r\n<p style=\"margin: 25px\">The <b>&lt;p&gt;</b> tag supports
+    the following options:\r\n<ul>\r\n\t<li><b>font</b> - The relative path of any
+    dfDynamicFont prefab in your Resources\r\n\tfolder. Note that the font prefab
+    must be located in or under the Resources folder\r\n\tin order to be dynamically
+    loaded by name.</li>\r\n\t<li><b>size</b> - The font size, in pixels.</li>\r\n\t<li><b>style</b>
+    - The font style. May be <b>Normal</b>, <b>Bold</b>, or <b>Italic</b>.</li>\r\n\t<li><b>color</b>
+    - The color of the text. See the <b>Colors</b> section for more information about
+    \r\n\tvalid values.</li>\r\n\t<li><b>background</b> - The background color of
+    the text. See the <b>Colors</b> section for more information about \r\n\tvalid
+    values.</li>\r\n\t<li><b>lineheight</b> - The height of each line of text. Useful
+    for when you want to \r\n\tadjust the spacing between lines.</li>\r\n\t<li><b>align</b>
+    - The alignment of the text within the paragraph. May be one of the \r\n\tfollowing
+    values: <b>Left</b>, <b>Right</b>, <b>Center</b>, <b>Justify</b>. Note that the
+    paragraph in \r\n\tthe <b>Introduction</b> section of this sample used the value
+    <b>Justify</b> to justify the text in the paragraph.</li>\r\n</ul>\r\n</p>\r\n\r\n<h3>Link
+    (&lt;a&gt;)</h3>\r\n<p style=\"margin: 25px\">\r\n\tThe <b>&lt;a&gt;</b> tag is
+    used to define a clickable link. When the user clicks on the \r\n\tlink with the
+    mouse, the <b>dfRichTextLabel</b> control will raise the <b>LinkClicked</b>\r\n\tevent
+    with a reference to the <b>dfMarkupTagAnchor</b> instance representing the link.\r\n\tThis
+    allows your application to decide how to handle user clicks. For instance, this
+    sample\r\n\twill use <b>Application.OpenURL( link.HRef )</b> to open a web page
+    whose URL is specified\r\n\tin the link's <b>href</b> attribute:\r\n</p>\r\n<p
+    style=\"margin: 25px; background-color: #111111\">\r\n\tClick <a href=\"http://www.daikonforge.com\"
+    style=\"color: Green; font-style: bold\">this link</a> to visit the Daikon Forge
+    website\r\n</p>\r\n<p style=\"margin: 25px\">The <b>&lt;a&gt;</b> tag supports
+    the following options:\r\n<ul>\r\n\t<li><b>href</b> - The URL or other application-specific
+    link destination</li>\r\n\t<li><b>font</b> - The relative path of any dfDynamicFont
+    prefab in your Resources\r\n\tfolder. Note that the font prefab must be located
+    in or under the Resources folder\r\n\tin order to be dynamically loaded by name.</li>\r\n\t<li><b>size</b>
+    - The font size, in pixels.</li>\r\n\t<li><b>style</b> - The font style. May be
+    <b>Normal</b>, <b>Bold</b>, or <b>Italic</b>.</li>\r\n\t<li><b>color</b> - The
+    color of the text. See the <b>Colors</b> section for more information about \r\n\tvalid
+    values.</li>\r\n</ul>\r\n</p>\r\n\r\n<h3>Image (&lt;img&gt;)</h3>\r\n<p style=\"margin:
+    25px\">\r\n\tDisplays an image, which can either be a sprite that is defined in
+    the <b>DefaultAtlas</b> property\r\n\tof the <b>dfRichTextLabel</b> control, or
+    a Texture asset defined in your project.\r\n</p>\r\n<p style=\"margin: 25px\">The
+    <b>&lt;img&gt;</b> tag supports the following options:\r\n<ul>\r\n\t<li><b>src</b>
+    - Can be either the name of a sprite defined in the <b>DefaultAtlas</b> field
+    or \r\n\tthe relative path of any Texture in your Resources folder. Note that
+    the Texture must be located \r\n\tin or under the Resources folder in order to
+    be dynamically loaded by name. <b>This attribute\r\n\tis required.</b></li>\r\n\t<li><b>height</b>
+    - The height of the image, in pixels.</li>\r\n\t<li><b>width</b> - The width of
+    the image, in pixels.</li>\r\n\t<li><b>valign</b> - The vertical alignment of
+    the image with respect to any adjacent text</li>\r\n</ul>\r\n</p>\r\n<p style=\"margin:
+    25px;\">\r\n\tNote that the <b>&lt;img&gt;</b> tag is an \"empty tag\", which
+    means that there is no end tag \r\n\tnecessary, and it is not used to surround
+    other content. It can optionally be used in any\r\n\tof the following forms: <b>&lt;img
+    src=\"...\"&gt;</b>, <b>&lt;img src=\"...\"/&gt;</b>, or <b>&lt;img src=\"...\"
+    /&gt;</b></p>\r\n<p style=\"margin: 25px;\">\r\n\tIf <b>height</b> and <b>width</b>
+    are not specified, the image will be displayed at its \r\n\toriginal resolution.
+    If either value is specified without the other, the image will be \r\n\tresized
+    in that direction and the aspect ratio will be maintained.\r\n</p>\r\n<p style=\"margin:
+    25px;\">\r\n\tThe first image in the following example is a sprite that is defined
+    in the DefaultAtlas. \r\n\tThe second image is a Texture that was loaded from
+    the Resources folder. Both images use \r\n\t<b>height=\"100\"</b> to ensure that
+    they are the same height:\r\n</p>\r\n<p style=\"margin: 25px;\">\r\n\t<img src=\"dfgui-icon\"
+    height=100/> <img src=\"Station\" height=100/>\r\n</p>\r\n\r\n<h3>Font (&lt;font&gt;)</h3>\r\n<p
+    style=\"margin: 25px\">\r\n\t\tAllows you to specify in-line changes to the font,
+    style, size, and color used\r\n\t\tto render the inner text.\r\n\t</p>\r\n<p style=\"margin:
+    25px\">The <b>&lt;font&gt;</b> tag supports the following options:\r\n<ul>\r\n\t<li><b>name</b>
+    - The relative path of any dfDynamicFont prefab in your Resources\r\n\tfolder.
+    Note that the font prefab must be located in or under the Resources folder\r\n\tin
+    order to be dynamically loaded by name.</li>\r\n\t<li><b>size</b> - The font size,
+    in pixels.</li>\r\n\t<li><b>style</b> - The font style. May be <b>Normal</b>,
+    <b>Bold</b>, or <b>Italic</b>.</li>\r\n\t<li><b>color</b> - The color of the text.
+    See the <b>Colors</b> section for more information about \r\n\tvalid values.</li>\r\n</ul>\r\n</p>\r\n<p
+    style=\"margin: 25px; background-color: #111111\">\r\n\tThe <b>&lt;font&gt;</b>
+    tag allows you to change <font name=\"fonts/huggable\" size=\"150%\" color=yellow
+    style=bold >text styling</font> in-line.\r\n</p>\r\n\r\n<h3>Lists (&lt;ul&gt;
+    and &lt;ol&gt;)</h3>\r\n<p style=\"margin: 25px\">\r\n\tThe &lt;ul&gt; tag represents
+    an unordered list of items, while the &lt;ol&gt;\r\n\ttag represents an ordered
+    list of items.\r\n</p>\r\n<p style=\"margin: 25px\">Unordered lists are used to
+    display a collection of items\r\nthat do not have a numerical ordering and their
+    order in the list is meaningless.\r\nUnordered list items are displayed as a \"bullet
+    list\", where each item in the list\r\nis preceeded with a dot character:\r\n\t<ul>\r\n\t\t<li>An
+    unordered list item</li>\r\n\t\t<li>Another unordered list item</li>\r\n\t\t<li>The
+    last unordered list item</li>\r\n\t</ul>\r\n</p>\r\n<p style=\"margin: 25px\">Ordered
+    lists are used to display a collection of items\r\nin which each list item is
+    preceeded by a number:\r\n\t<ol>\r\n\t\t<li>In the first place</li>\r\n\t\t<li>In
+    the second place</li>\r\n\t\t<li>Finally</li>\r\n\t</ol>\r\n</p>\r\n<p style=\"margin:
+    25px\">\r\nEach list item must be surrounded by &lt;li&gt; and &lt;/li&gt; tags.
+    The &lt;li&gt; tag\r\nsupports the following options:\r\n<ul>\r\n\t<li><b>font</b>
+    - The relative path of any dfDynamicFont prefab in your Resources\r\n\tfolder.
+    Note that the font prefab must be located in or under the Resources folder\r\n\tin
+    order to be dynamically loaded by name.</li>\r\n\t<li><b>size</b> - The font size,
+    in pixels.</li>\r\n\t<li><b>style</b> - The font style. May be <b>Normal</b>,
+    <b>Bold</b>, or <b>Italic</b>.</li>\r\n\t<li><b>color</b> - The color of the text.
+    See the <b>Colors</b> section for more information about \r\n\tvalid values.</li>\r\n</ul>\r\n</p>\r\n\r\n<h3>Heading
+    (&lt;h1&gt; to &lt;h6&gt;)</h3>\r\n<p style=\"margin: 25px\">\r\n\tHeading tags
+    implement six levels of document headings, <b>&lt;h1&gt;</b> is the most important
+    and <b>&lt;h6&gt;</b> is the least.\r\n\tEach heading level defines a default
+    font size, margin, and style.\r\n</p>\r\n<p style=\"margin: 25px\">These tags
+    support the following options:\r\n\t<ul>\r\n\t\t<li><b>font</b> - The relative
+    path of any dfDynamicFont prefab in your Resources\r\n\t\tfolder. Note that the
+    font prefab must be located in or under the Resources folder\r\n\t\tin order to
+    be dynamically loaded by name.</li>\r\n\t\t<li><b>size</b> - The font size, in
+    pixels.</li>\r\n\t\t<li><b>style</b> - The font style. May be <b>Normal</b>, <b>Bold</b>,
+    or <b>Italic</b>.</li>\r\n\t\t<li><b>color</b> - The color of the text. See the
+    <b>Colors</b> section for more information about \r\n\t\tvalid values.</li>\r\n\t\t<li><b>align</b>
+    - The alignment of the text within the paragraph. May be one of the \r\n\t\tfollowing
+    values: <b>Left</b>, <b>Right</b>, <b>Center</b>.\r\n\t</ul>\r\n</p>\r\n<p style=\"margin:
+    25px; background-color: #111111\">\r\n\t<h1>Heading level 1</h1>\r\n\t<h2>Heading
+    level 2</h2>\r\n\t<h3>Heading level 3</h3>\r\n\t<h4>Heading level 4</h4>\r\n\t<h5>Heading
+    level 5</h5>\r\n\t<h6>Heading level 6</h6>\r\n</p>\r\n<br/>"
+  fontSize: 18
+  lineheight: 16
+  textScaleMode: 2
+  fontStyle: 0
+  preserveWhitespace: 0
+  blankTextureSprite: BLANK_TEXTURE
+  align: 0
+  allowScrolling: 1
+  horzScrollbar: {fileID: 0}
+  vertScrollbar: {fileID: 1379172627}
+  useScrollMomentum: 1
+  autoHeight: 0
+--- !u!65 &2087820546
+BoxCollider:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2087820543}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.56666684, y: 1.93000007, z: .00100000005}
+  m_Center: {x: 1.28333342, y: -.965000033, z: 0}
+--- !u!114 &2087820547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2087820543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63c1c262a7b8e24a8e5657c229564ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
