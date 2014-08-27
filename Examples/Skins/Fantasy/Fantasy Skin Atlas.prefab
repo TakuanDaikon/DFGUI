@@ -1,0 +1,941 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 8
+  m_Name: Fantasy Skin Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f514313262e3d141ad017b60809752a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 8aef305aa24d2d44ab52fc3351c4f647, type: 2}
+  items:
+  - name: BLANK_TEXTURE
+    region:
+      serializedVersion: 2
+      x: .865234375
+      y: .93359375
+      width: .009765625
+      height: .009765625
+    border:
+      m_Left: 1
+      m_Right: 1
+      m_Top: 1
+      m_Bottom: 1
+    rotated: 0
+    sizeInPixels: {x: 10, y: 10}
+    textureGUID: c6f073cf28c1dfd449b8a2a0ae985a99
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button-disabled
+    region:
+      serializedVersion: 2
+      x: .627929688
+      y: .912109375
+      width: .124023438
+      height: .01953125
+    border:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    rotated: 0
+    sizeInPixels: {x: 127, y: 20}
+    textureGUID: 6a2fdd93ebc118a48805f71802690c29
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button-hover
+    region:
+      serializedVersion: 2
+      x: .75390625
+      y: .912109375
+      width: .124023438
+      height: .01953125
+    border:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    rotated: 0
+    sizeInPixels: {x: 127, y: 20}
+    textureGUID: b6d55e9d28c3e5043b6bd2dc2d9cd169
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button-normal
+    region:
+      serializedVersion: 2
+      x: .627929688
+      y: .93359375
+      width: .124023438
+      height: .01953125
+    border:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 8
+      m_Bottom: 8
+    rotated: 0
+    sizeInPixels: {x: 127, y: 20}
+    textureGUID: f85935d5adc0b6643b29b7b192be3af0
+    deleted: 0
+    texture: {fileID: 0}
+  - name: dropdown-btn-hover
+    region:
+      serializedVersion: 2
+      x: .451171875
+      y: .95703125
+      width: .0244140625
+      height: .0244140625
+    border:
+      m_Left: 3
+      m_Right: 3
+      m_Top: 3
+      m_Bottom: 3
+    rotated: 0
+    sizeInPixels: {x: 25, y: 25}
+    textureGUID: 7b0a83f65b47d4b43856ac14819b3dbc
+    deleted: 0
+    texture: {fileID: 0}
+  - name: dropdown-btn-normal
+    region:
+      serializedVersion: 2
+      x: .477539062
+      y: .95703125
+      width: .0244140625
+      height: .0244140625
+    border:
+      m_Left: 3
+      m_Right: 3
+      m_Top: 3
+      m_Bottom: 3
+    rotated: 0
+    sizeInPixels: {x: 25, y: 25}
+    textureGUID: 87b5dd01dbee61a49a0290d36292feff
+    deleted: 0
+    texture: {fileID: 0}
+  - name: frame-small
+    region:
+      serializedVersion: 2
+      x: .501953125
+      y: .650390625
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 4
+      m_Right: 4
+      m_Top: 4
+      m_Bottom: 4
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: 01e5c8de3130d1f48bf186eaaa004432
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Heiro-OpenSans-Regular-12px
+    region:
+      serializedVersion: 2
+      x: .485351562
+      y: .142578125
+      width: .25
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 128}
+    textureGUID: c24ccf3604b872f4a9ac4b9327b84bea
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Heiro-OpenSans-Regular-16px
+    region:
+      serializedVersion: 2
+      x: .485351562
+      y: .26953125
+      width: .25
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 128}
+    textureGUID: 1b577c60168b61f4da98daf7ae9662c5
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Heiro-OpenSans-Regular-20px
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .74609375
+      width: .25
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 256}
+    textureGUID: 9eb85889eb4ec084993f0675c202159b
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Heiro-OpenSans-Regular-24px
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .494140625
+      width: .5
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 512, y: 256}
+    textureGUID: dde4836da68eec645b33bd7853e902fe
+    deleted: 0
+    texture: {fileID: 0}
+  - name: horz-scroll-left
+    region:
+      serializedVersion: 2
+      x: .501953125
+      y: .66796875
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: b3bc9a2ba3dfaaa45a10ef0a4acd622e
+    deleted: 0
+    texture: {fileID: 0}
+  - name: horz-scroll-right
+    region:
+      serializedVersion: 2
+      x: .501953125
+      y: .685546875
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: 0af24474e8bd97747bed3fd66b8fdc04
+    deleted: 0
+    texture: {fileID: 0}
+  - name: horz-scroll-thumb
+    region:
+      serializedVersion: 2
+      x: .50390625
+      y: .95703125
+      width: .0146484375
+      height: .015625
+    border:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 5
+      m_Bottom: 5
+    rotated: 0
+    sizeInPixels: {x: 15, y: 16}
+    textureGUID: 1fedc40b204348e489ee24e973365b76
+    deleted: 0
+    texture: {fileID: 0}
+  - name: horz-scroll-track
+    region:
+      serializedVersion: 2
+      x: .741210938
+      y: .108398438
+      width: .223632812
+      height: .015625
+    border:
+      m_Left: 4
+      m_Right: 4
+      m_Top: 3
+      m_Bottom: 4
+    rotated: 1
+    sizeInPixels: {x: 229, y: 16}
+    textureGUID: 0aa7ac2c51f994d4d85a471224cf69c7
+    deleted: 0
+    texture: {fileID: 0}
+  - name: horz-slider-thumb-normal
+    region:
+      serializedVersion: 2
+      x: .46875
+      y: .983398438
+      width: .0146484375
+      height: .0146484375
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 15, y: 15}
+    textureGUID: b21c748a024ce274da86fe12f09a1f9d
+    deleted: 0
+    texture: {fileID: 0}
+  - name: horz-slider-track-normal
+    region:
+      serializedVersion: 2
+      x: .627929688
+      y: .95703125
+      width: .169921875
+      height: .0068359375
+    border:
+      m_Left: 3
+      m_Right: 3
+      m_Top: 3
+      m_Bottom: 3
+    rotated: 0
+    sizeInPixels: {x: 174, y: 7}
+    textureGUID: 7bf097c2a2de2b64b9b56c8827eb44cb
+    deleted: 0
+    texture: {fileID: 0}
+  - name: hscroll-left-hover
+    region:
+      serializedVersion: 2
+      x: .501953125
+      y: .703125
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: b6a54fe5b7e780b489289fb91745a397
+    deleted: 0
+    texture: {fileID: 0}
+  - name: hscroll-right-hover
+    region:
+      serializedVersion: 2
+      x: .501953125
+      y: .720703125
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: 861ee064bbeb19543a02dad2f27283fc
+    deleted: 0
+    texture: {fileID: 0}
+  - name: hscroll-thumb-hover
+    region:
+      serializedVersion: 2
+      x: .50390625
+      y: .974609375
+      width: .0146484375
+      height: .015625
+    border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    rotated: 0
+    sizeInPixels: {x: 15, y: 16}
+    textureGUID: bf74060a64c39c048a4faa78d0858eb7
+    deleted: 0
+    texture: {fileID: 0}
+  - name: hslider-thumb-hover
+    region:
+      serializedVersion: 2
+      x: .485351562
+      y: .983398438
+      width: .0146484375
+      height: .0146484375
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 15, y: 15}
+    textureGUID: 3c3a42a066afe5341ba49301b9b3351e
+    deleted: 0
+    texture: {fileID: 0}
+  - name: listitem-hover
+    region:
+      serializedVersion: 2
+      x: .251953125
+      y: .892578125
+      width: .09765625
+      height: .102539062
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 5
+      m_Bottom: 5
+    rotated: 0
+    sizeInPixels: {x: 100, y: 105}
+    textureGUID: 65871555f87a8914288c94905c0729a1
+    deleted: 0
+    texture: {fileID: 0}
+  - name: listitem-selected
+    region:
+      serializedVersion: 2
+      x: .3515625
+      y: .892578125
+      width: .09765625
+      height: .102539062
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 5
+      m_Bottom: 5
+    rotated: 0
+    sizeInPixels: {x: 100, y: 105}
+    textureGUID: b5fe64d0da7e7fa499170bb4cf715216
+    deleted: 0
+    texture: {fileID: 0}
+  - name: panel
+    region:
+      serializedVersion: 2
+      x: .485351562
+      y: 0
+      width: .25390625
+      height: .140625
+    border:
+      m_Left: 15
+      m_Right: 15
+      m_Top: 15
+      m_Bottom: 15
+    rotated: 0
+    sizeInPixels: {x: 260, y: 144}
+    textureGUID: 4ae67d611cd0af9468d2a9835bab3841
+    deleted: 0
+    texture: {fileID: 0}
+  - name: panel2
+    region:
+      serializedVersion: 2
+      x: .251953125
+      y: .74609375
+      width: .266601562
+      height: .14453125
+    border:
+      m_Left: 3
+      m_Right: 3
+      m_Top: 3
+      m_Bottom: 3
+    rotated: 0
+    sizeInPixels: {x: 273, y: 148}
+    textureGUID: 577e209cb1ea4394ab61aa38e3137094
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-1
+    region:
+      serializedVersion: 2
+      x: .741210938
+      y: 0
+      width: .106445312
+      height: .106445312
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 109, y: 109}
+    textureGUID: fca5d32deac02ee45a06bee6b327a9c9
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-10
+    region:
+      serializedVersion: 2
+      x: .501953125
+      y: .396484375
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 8a397756774e1864486b1fa8c197c68d
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-11
+    region:
+      serializedVersion: 2
+      x: .501953125
+      y: .5234375
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 95b6723d7556d2d42aa1ff00e18e39f6
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-2
+    region:
+      serializedVersion: 2
+      x: .849609375
+      y: 0
+      width: .106445312
+      height: .106445312
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 109, y: 109}
+    textureGUID: ce19f3fe141e7374591e1b5bbe564333
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-3
+    region:
+      serializedVersion: 2
+      x: .520507812
+      y: .885742188
+      width: .10546875
+      height: .106445312
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 108, y: 109}
+    textureGUID: f0ea2ffdbf126be41896c71e10173d5c
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-4
+    region:
+      serializedVersion: 2
+      x: .520507812
+      y: .77734375
+      width: .106445312
+      height: .106445312
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 109, y: 109}
+    textureGUID: 8ee62bb112019354482fdf7b04dc8c42
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-5
+    region:
+      serializedVersion: 2
+      x: .520507812
+      y: .650390625
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 51e66efa091dfef4a8130d1e313974f8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-6
+    region:
+      serializedVersion: 2
+      x: .62890625
+      y: .396484375
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 6472343b66e63104a92b261cda3153d9
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-7
+    region:
+      serializedVersion: 2
+      x: .62890625
+      y: .5234375
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 960e635337355384dbbe6911cf07fa3a
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-8
+    region:
+      serializedVersion: 2
+      x: .737304688
+      y: .142578125
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: a532ca502a4bc2d44867ed412a01cb8c
+    deleted: 0
+    texture: {fileID: 0}
+  - name: spell-9
+    region:
+      serializedVersion: 2
+      x: .737304688
+      y: .26953125
+      width: .125
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 3d30a41044e502b4fb45cd4ddcd700ba
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tab-hover
+    region:
+      serializedVersion: 2
+      x: .879882812
+      y: .912109375
+      width: .109375
+      height: .021484375
+    border:
+      m_Left: 9
+      m_Right: 9
+      m_Top: 8
+      m_Bottom: 8
+    rotated: 0
+    sizeInPixels: {x: 112, y: 22}
+    textureGUID: 07ed68bd8cbadb44eb18dcec795967c0
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tab-normal
+    region:
+      serializedVersion: 2
+      x: .75390625
+      y: .93359375
+      width: .109375
+      height: .021484375
+    border:
+      m_Left: 9
+      m_Right: 9
+      m_Top: 8
+      m_Bottom: 8
+    rotated: 0
+    sizeInPixels: {x: 112, y: 22}
+    textureGUID: f176c1bbbc7a5044bae7b5a967c51763
+    deleted: 0
+    texture: {fileID: 0}
+  - name: textbox
+    region:
+      serializedVersion: 2
+      x: .627929688
+      y: .885742188
+      width: .268554688
+      height: .0244140625
+    border:
+      m_Left: 4
+      m_Right: 4
+      m_Top: 4
+      m_Bottom: 4
+    rotated: 0
+    sizeInPixels: {x: 275, y: 25}
+    textureGUID: 41f4f50801fd8ff44adc9ff29b0355a6
+    deleted: 0
+    texture: {fileID: 0}
+  - name: toggle-checked
+    region:
+      serializedVersion: 2
+      x: .799804688
+      y: .95703125
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: 25d55ec0146518d4188c784e6426d0f8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: toggle-unchecked
+    region:
+      serializedVersion: 2
+      x: .627929688
+      y: .965820312
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 3
+      m_Right: 3
+      m_Top: 3
+      m_Bottom: 3
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: c451fdb18ac3b8a40b6b9d0922c360bb
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tome
+    region:
+      serializedVersion: 2
+      x: .451171875
+      y: .892578125
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 64, y: 64}
+    textureGUID: 66f313ae1e1b28f438eab62b54c72087
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vscroll-down-hover
+    region:
+      serializedVersion: 2
+      x: .645507812
+      y: .965820312
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: 04532f9a895534449984fc5a11a82e65
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vscroll-down-normal
+    region:
+      serializedVersion: 2
+      x: .663085938
+      y: .965820312
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: 5e41a79c978d9314a9b4b71885bb1e57
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vscroll-thumb-normal
+    region:
+      serializedVersion: 2
+      x: .451171875
+      y: .983398438
+      width: .015625
+      height: .0146484375
+    border:
+      m_Left: 3
+      m_Right: 3
+      m_Top: 3
+      m_Bottom: 3
+    rotated: 0
+    sizeInPixels: {x: 16, y: 15}
+    textureGUID: 84a2ac9b7a8de2b459c81a1260a6b595
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vscroll-track-normal
+    region:
+      serializedVersion: 2
+      x: .966796875
+      y: 0
+      width: .015625
+      height: .223632812
+    border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    rotated: 0
+    sizeInPixels: {x: 16, y: 229}
+    textureGUID: 486cbef236b00094ca4e63d31f5a13c1
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vscroll-up-hover
+    region:
+      serializedVersion: 2
+      x: .680664062
+      y: .965820312
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: e34d1d0b64fc862449cf1fc4441fee2b
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vscroll-up-normal
+    region:
+      serializedVersion: 2
+      x: .698242188
+      y: .965820312
+      width: .015625
+      height: .015625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 16, y: 16}
+    textureGUID: 21c604cf45517f24ca0d9c59aa94c08c
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vslider-thumb-hover
+    region:
+      serializedVersion: 2
+      x: .485351562
+      y: .396484375
+      width: .0146484375
+      height: .0146484375
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 15, y: 15}
+    textureGUID: ab18f5f5c2bda2743b18255ae8e7ec08
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vslider-thumb-normal
+    region:
+      serializedVersion: 2
+      x: .485351562
+      y: .413085938
+      width: .0146484375
+      height: .0146484375
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 15, y: 15}
+    textureGUID: 1ef5e30fe6e688e4a8fb7f36053a3d27
+    deleted: 0
+    texture: {fileID: 0}
+  - name: vslider-track-normal
+    region:
+      serializedVersion: 2
+      x: .8984375
+      y: .125976562
+      width: .0146484375
+      height: .169921875
+    border:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 4
+      m_Bottom: 4
+    rotated: 0
+    sizeInPixels: {x: 15, y: 174}
+    textureGUID: 66f5e68c19c06cf46bfe698e90bd5174
+    deleted: 0
+    texture: {fileID: 0}
+  - name: window-test
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .483398438
+      height: .4921875
+    border:
+      m_Left: 53
+      m_Right: 53
+      m_Top: 35
+      m_Bottom: 35
+    rotated: 0
+    sizeInPixels: {x: 495, y: 504}
+    textureGUID: 6cd8375e75202ea4cbf7a4245be19dec
+    deleted: 0
+    texture: {fileID: 0}
+  generator: 0
+  imageFileGUID: 
+  dataFileGUID: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

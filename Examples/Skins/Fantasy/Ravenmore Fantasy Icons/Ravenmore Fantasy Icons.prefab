@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Ravenmore Fantasy Icons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f514313262e3d141ad017b60809752a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: a70342ba67d8db44780564f766baeca1, type: 2}
+  items:
+  - name: armor
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .29296875
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 5ae5116c89f5a154d850067cc5519166
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe_one
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .546875
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 87035380598ee6143a94af6fa3ba0630
+    deleted: 0
+    texture: {fileID: 0}
+  - name: axe_two
+    region:
+      serializedVersion: 2
+      x: .126953125
+      y: .29296875
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 30c8855cc99e6234396f4ed17b0512ee
+    deleted: 0
+    texture: {fileID: 0}
+  - name: backpack
+    region:
+      serializedVersion: 2
+      x: .126953125
+      y: .546875
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: c04d35b7ee8aa0a46b3b98252905b445
+    deleted: 0
+    texture: {fileID: 0}
+  - name: cogwheels
+    region:
+      serializedVersion: 2
+      x: .25390625
+      y: .29296875
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 83704f958c867c14e8732869fd0c359c
+    deleted: 0
+    texture: {fileID: 0}
+  - name: coin
+    region:
+      serializedVersion: 2
+      x: .268554688
+      y: 0
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 070447315742f0942993e5c5b58da572
+    deleted: 0
+    texture: {fileID: 0}
+  - name: coins
+    region:
+      serializedVersion: 2
+      x: .25390625
+      y: .546875
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 990a8b0de0a845e4589ca304b038754e
+    deleted: 0
+    texture: {fileID: 0}
+  - name: dagger
+    region:
+      serializedVersion: 2
+      x: .380859375
+      y: .25390625
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: c4e42ec39a331a64baf8de1dbc389f13
+    deleted: 0
+    texture: {fileID: 0}
+  - name: hammer
+    region:
+      serializedVersion: 2
+      x: .395507812
+      y: 0
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: ce77b73c988f26749a40c8a1bf40b67a
+    deleted: 0
+    texture: {fileID: 0}
+  - name: hammerSpanner
+    region:
+      serializedVersion: 2
+      x: .380859375
+      y: .5078125
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: a4b72d317bb813949b632317d6a23b13
+    deleted: 0
+    texture: {fileID: 0}
+  - name: heart
+    region:
+      serializedVersion: 2
+      x: .5078125
+      y: .25390625
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 6a3dc3ff0b6b4554f9d4fae43bfcf8f8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: helmet
+    region:
+      serializedVersion: 2
+      x: .522460938
+      y: 0
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 36b4150f81318ba44b4d2fcaa4fcd0ec
+    deleted: 0
+    texture: {fileID: 0}
+  - name: panel2
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .266601562
+      height: .2890625
+    border:
+      m_Left: 5
+      m_Right: 5
+      m_Top: 5
+      m_Bottom: 5
+    rotated: 0
+    sizeInPixels: {x: 273, y: 148}
+    textureGUID: 577e209cb1ea4394ab61aa38e3137094
+    deleted: 0
+    texture: {fileID: 0}
+  - name: potion
+    region:
+      serializedVersion: 2
+      x: .5078125
+      y: .5078125
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: f26470d4fce154a48aad6b42d5b5eab4
+    deleted: 0
+    texture: {fileID: 0}
+  - name: potion_blu
+    region:
+      serializedVersion: 2
+      x: .634765625
+      y: .25390625
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: f4058c423a6c69d45b057b24a88c3d9a
+    deleted: 0
+    texture: {fileID: 0}
+  - name: potion_green
+    region:
+      serializedVersion: 2
+      x: .649414062
+      y: 0
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 8c74e4a6bf45f2443aaf888f91ce1e7e
+    deleted: 0
+    texture: {fileID: 0}
+  - name: shield
+    region:
+      serializedVersion: 2
+      x: .76171875
+      y: .25390625
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 9efe1d41249c25248b7034c2eb498911
+    deleted: 0
+    texture: {fileID: 0}
+  - name: sword
+    region:
+      serializedVersion: 2
+      x: .776367188
+      y: 0
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: fa19e6b12f056ca419d415f3c9fda4c9
+    deleted: 0
+    texture: {fileID: 0}
+  - name: wand
+    region:
+      serializedVersion: 2
+      x: .634765625
+      y: .5078125
+      width: .125
+      height: .25
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 2fdc65e8b7b57ae499c79c3d679dae39
+    deleted: 0
+    texture: {fileID: 0}
+  generator: 0
+  imageFileGUID: 
+  dataFileGUID: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

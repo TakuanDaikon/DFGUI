@@ -1,0 +1,117 @@
+------------------------
+Daikon Forge GUI v1.0.16 hotfix 1
+
+* Replaced step() function in UI shaders, which wasn't available on all target platforms
+* Removed dfRenderGroup.getViewSize(), which was preventing compilation for Windows Store platform
+* Bitmapped font creator now performs additional checks to ensure that the font definition file is correct format
+* dfListbox.AddItem() now invalidates the control, causing it to refresh properly
+* Bitmapped font import now notifies user when font definition specifies multiple pages, which is not supported
+* Resolved issue with dfGUIManager not releasing clones of Material instances generated during rendering
+* Resolved issue with NullReferenceException caused by deleting controls during event processing
+* Resolved "font corruption" issues with dynamic fonts on Label, Textbox, Dropdown, Button, and List controls
+* Added AutoFitVirtualTiles property.
+* Added anchoring options to dfFollowObject script.
+* Added screen clamping option for dfFollowObject (thanks to kathode for the idea)
+* ScrollPanel inspector now exposes virtual scrolling properties.
+
+------------------------
+Daikon Forge GUI v1.0.16
+
+* dfInputManager.RetainFocus now works on mobile/touch
+* Added helper methods to simplify creation of property or event bindings programatically
+* Added helper methods to simplify creation of tweens programatically
+* Added AutoBind and AutoUnbind properties to property and event binding components
+* Added Bind and Unbind buttons to property and event binding inspectors for debugging
+* Removed dfInputManager.TouchClickRadius property
+* Incorrectly adding a dfControl component to an existing dfControl in the Editor will now add a child control instead
+* dfGUIManager no longer throws error when combined mesh exceeds 65000 verts
+* dfGUIManager properly handles dynamic or repeated enable/disable
+* Resolved render order issues when using multiple dfGUIManager instances in the same scene
+* Resolved NullReferenceException in dfDropdown when displaying popup
+* New component dfRenderGroup allows shader-based clipping, partial UI updates
+* Fixed issue with display of angle when rotating controls in the editor via rotate tool
+* Eliminated several memory allocations in render cycle when using Unity 4.3.x
+* Resolved issues with blurriness in perspective mode, when dfGUIManager is enabled/disabled, and when resolution changes
+* Modified dfGUIManager.UIScale behavior to match customer expectations, added UIScaleLegacyMode flag to use legacy mode.
+* Added HoverStartDelay and HoverNotificationFrequency properties to dfInputManager. Defaults to legacy values for existing dfInputManager instances.
+* Fixed a script-execution-order issue in dfTouchJoystick and dfMobileMouseLook components used in Touch-Screen Joystick sample.
+* GUI render camera now set to explictly use RenderingPath.Forward instead of player settings
+* Resolved issue with button controls - when AutoSize=true, anchor layout was not always working correctly
+* Resolved issue with label control - AutoSize might allow the control to ignore assigned min and max sizes
+* Implemented dfControl.ControlClippingChanged event to indicate when control goes from not clipped to clipped (or vice versa).
+* Added StartDelay property to dfTweenGroup component
+* Integrated virtualized scrolling (provided by XaeroDegreez) in dfScrollPanel control
+* ScrollPanel scroll momentum now reset when calling ScrollToTop/Bottom/Left/Right and ScrollIntoView methods
+* ScrollPanel scroll momentum now reset when mouse down or touch occurs
+* dfControl.Signal() no longer attemps to signal events during application shutdown
+* dfResizeHandle control now allows focus
+* dfCheckbox.IsChecked now enforces checkbox grouping
+* Touch processing now works when Time.timeScale < 1
+* Resolved an issue where user interaction could cause the UI to shift by a half pixel
+* dfScrollPanel.AutoArrange now works when scroll panel is not visible
+* Resolved issue in dfScrollbar.Value property where scrollbar did not check for auto-hide
+* Tweens now correctly raise the TweenCompleted event
+* Resolved issue with OnDragOver not being called
+* Resolved issue with dfCheckbox.Click event not being raised
+* Reverted dfDynamicFont class due to bug regressions
+
+
+---------------------------------
+Daikon Forge GUI v1.0.15 (hotfix)
+
+* Resolved exception with dfList.GetEnumerator() on iOS platforms
+* Resolved null reference exception in dfGUIManager.HitTest() when controls are removed from container
+* Controls which are moved at runtime will have a kinematic RigidBody added "on demand" to reduce physics cost
+* Resolved issue where dfLabel control with AutoSize or AutoHeight in a ScrollPanel would not be clipped when text was updated
+* Resolved some issues where the wrong control reference was assigned to the dfMouseEventArgs.Source property (touch processing)
+
+
+------------------------
+Daikon Forge GUI v1.0.15
+
+* Resolved new compile errors when building for Windows Store
+* Resolved mismatched Profiler.BeginSample()/Profile.EndSample() in Rich Text Label
+* Refactored mouse and touch processing and dfGUIManager.HitTest() to not use Physics.RaycastAll()
+* dfGUIManager now caches triangle buffers when possible, resulting in fewer memory allocations needed
+* Refactored many dfControl.Signal() calls to include the [this] pointer, resulting in fewer memory allocations
+* Made gesture event handlers public to work around Unity bug on WP8
+* Eliminated memory allocations in dfControl.updateCollider()
+* Improved memory usage of tween components
+* Resolved issue in dfControl.OnIsEnabledChanged() which might use incorrect value in event notifications
+* Resolved naming conflict between System.Text.RegularExpressions.Match and user-defined Match class
+* Added cropping to dfTextureSprite control
+* Rich Text Label will now use the default font if a markup element specifies an invalid font
+* Rich Text Label now supports Auto Height - Will resize vertically to match contents
+* Added dfControl.AutoFocus property - If set to TRUE, control will automatically gain focus when enabled or shown
+* Controls now correctly detect when re-parented to a different dfGUIManager hierarchy
+* Fixed issue with mouse/touch processing when using multiple dfGUIManager instances
+* Removed all instances of default parameter values in method declarations - Now compiles in Unity's Monodevelop distribution
+* Sliders now correctly handle arrow keys when set to Vertical orientation or Horizontal orientation with RightToLeft
+* Resolved an issue where control ZOrder would change at startup or when the parent was enabled
+* KeyEventBinding inspector now checks the event handler signature for compatibility
+* Inspectors now use yellow instead of red to indicate important fields that are missing values when using dark editor skin
+* Added dfInputManger.UseMouse property - Can disable mouse input on platforms that don't use mouse
+* Fixed float.RoundToNearest() extension method, used by controls such as Slider to quantize/round values
+* Added "Auto Download" property to dfWebSprite inspector, fixed AutoDownload handling
+* Added DownloadComplete and DownloadError events to dfWebSprite class
+* Resolved InvalidOperationException in dfMaterialEditor on OSX platforms
+* dfControl.GetManager() no longer returns NULL when manager not found - Resolves some issues with prefabs, enable/disable issues
+* Resolved issue with scrolling dfRichTextLabel control on WP8 platform
+* Resolved an issue with prefabs which contain a dfGUIManager instance not properly applying anchor information
+* Resolved several issues with prefab instantiation, include zorder issues and anchor issues
+
+
+------------------------
+Daikon Forge GUI v1.0.14
+
+NOTE: This update is a "hotfix" that resolves important touch interaction issues and Windows Phone 8 issues
+
+* Resolved issues where some controls were not rendering correctly after being shown when initially hidden
+* Implemented workaround for Unity bug (Reflection on WP8 with Unity 4.3.3+) on Windows Phone 8
+* Resolved issue with touch processing - controls that were moved after tapping no longer responded to taps
+* Removed caching of control's GameObject - Provided zero performance benefit, contributed to bugs
+* Texture Sprite inspector now uses Texture instead of Texture2D, allows use of RenderTexture
+* Can dynamically re-assign Tween component at runtime
+* Made modifications to "click through" blocking code that should prove to be more consistent
+* Create Script wizard now properly handles byref parameters in event handler signatures
+* dfFollowObject now sorts controls by distance from camera, more performant frustum culling

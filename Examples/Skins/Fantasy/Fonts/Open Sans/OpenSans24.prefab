@@ -1,0 +1,3026 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: OpenSans24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f659c90c0e4834b9249664c8d0e6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 11400000, guid: b1c85ce876406b34ba8a6f1f8e636bcc, type: 2}
+  sprite: Heiro-OpenSans-Regular-24px
+  face: Open Sans
+  size: 24
+  bold: 0
+  italic: 0
+  charset: 
+  stretchH: 100
+  smooth: 1
+  aa: 1
+  padding: 00000000000000000000000000000000
+  spacing: 0000000000000000
+  outline: 0
+  lineHeight: 33
+  glyphs:
+  - id: 32
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+    xoffset: 0
+    yoffset: 26
+    xadvance: 6
+    rotated: 0
+  - id: 33
+    x: 192
+    y: 49
+    width: 5
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 6
+    rotated: 0
+  - id: 34
+    x: 253
+    y: 87
+    width: 9
+    height: 8
+    xoffset: 1
+    yoffset: 8
+    xadvance: 10
+    rotated: 0
+  - id: 35
+    x: 125
+    y: 49
+    width: 17
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 16
+    rotated: 0
+  - id: 36
+    x: 205
+    y: 27
+    width: 13
+    height: 21
+    xoffset: 1
+    yoffset: 7
+    xadvance: 14
+    rotated: 0
+  - id: 37
+    x: 142
+    y: 49
+    width: 19
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 20
+    rotated: 0
+  - id: 38
+    x: 107
+    y: 49
+    width: 18
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 18
+    rotated: 0
+  - id: 39
+    x: 249
+    y: 87
+    width: 4
+    height: 8
+    xoffset: 1
+    yoffset: 8
+    xadvance: 5
+    rotated: 0
+  - id: 40
+    x: 408
+    y: 0
+    width: 8
+    height: 23
+    xoffset: 0
+    yoffset: 8
+    xadvance: 7
+    rotated: 0
+  - id: 41
+    x: 400
+    y: 0
+    width: 8
+    height: 23
+    xoffset: 0
+    yoffset: 8
+    xadvance: 7
+    rotated: 0
+  - id: 42
+    x: 41
+    y: 87
+    width: 13
+    height: 13
+    xoffset: 0
+    yoffset: 7
+    xadvance: 13
+    rotated: 0
+  - id: 43
+    x: 12
+    y: 87
+    width: 13
+    height: 14
+    xoffset: 1
+    yoffset: 11
+    xadvance: 14
+    rotated: 0
+  - id: 44
+    x: 243
+    y: 87
+    width: 6
+    height: 8
+    xoffset: 0
+    yoffset: 22
+    xadvance: 6
+    rotated: 0
+  - id: 45
+    x: 330
+    y: 87
+    width: 7
+    height: 4
+    xoffset: 1
+    yoffset: 18
+    xadvance: 8
+    rotated: 0
+  - id: 46
+    x: 337
+    y: 87
+    width: 5
+    height: 4
+    xoffset: 1
+    yoffset: 23
+    xadvance: 6
+    rotated: 0
+  - id: 47
+    x: 171
+    y: 49
+    width: 10
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 9
+    rotated: 0
+  - id: 48
+    x: 246
+    y: 68
+    width: 13
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 14
+    rotated: 0
+  - id: 49
+    x: 264
+    y: 49
+    width: 8
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 50
+    x: 251
+    y: 49
+    width: 13
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 51
+    x: 285
+    y: 68
+    width: 13
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 14
+    rotated: 0
+  - id: 52
+    x: 236
+    y: 49
+    width: 15
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 53
+    x: 223
+    y: 49
+    width: 13
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 54
+    x: 272
+    y: 68
+    width: 13
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 14
+    rotated: 0
+  - id: 55
+    x: 210
+    y: 49
+    width: 13
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 56
+    x: 259
+    y: 68
+    width: 13
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 14
+    rotated: 0
+  - id: 57
+    x: 197
+    y: 49
+    width: 13
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 58
+    x: 25
+    y: 87
+    width: 5
+    height: 14
+    xoffset: 1
+    yoffset: 13
+    xadvance: 6
+    rotated: 0
+  - id: 59
+    x: 320
+    y: 68
+    width: 6
+    height: 17
+    xoffset: 0
+    yoffset: 13
+    xadvance: 6
+    rotated: 0
+  - id: 60
+    x: 81
+    y: 87
+    width: 13
+    height: 13
+    xoffset: 1
+    yoffset: 11
+    xadvance: 14
+    rotated: 0
+  - id: 61
+    x: 202
+    y: 87
+    width: 13
+    height: 9
+    xoffset: 1
+    yoffset: 13
+    xadvance: 14
+    rotated: 0
+  - id: 62
+    x: 68
+    y: 87
+    width: 13
+    height: 13
+    xoffset: 1
+    yoffset: 11
+    xadvance: 14
+    rotated: 0
+  - id: 63
+    x: 181
+    y: 49
+    width: 11
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 10
+    rotated: 0
+  - id: 64
+    x: 218
+    y: 27
+    width: 21
+    height: 21
+    xoffset: 1
+    yoffset: 8
+    xadvance: 22
+    rotated: 0
+  - id: 65
+    x: 116
+    y: 68
+    width: 16
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 15
+    rotated: 0
+  - id: 66
+    x: 102
+    y: 68
+    width: 14
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 16
+    rotated: 0
+  - id: 67
+    x: 87
+    y: 68
+    width: 15
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 15
+    rotated: 0
+  - id: 68
+    x: 71
+    y: 68
+    width: 16
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 18
+    rotated: 0
+  - id: 69
+    x: 60
+    y: 68
+    width: 11
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 13
+    rotated: 0
+  - id: 70
+    x: 49
+    y: 68
+    width: 11
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 12
+    rotated: 0
+  - id: 71
+    x: 33
+    y: 68
+    width: 16
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 17
+    rotated: 0
+  - id: 72
+    x: 18
+    y: 68
+    width: 15
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 18
+    rotated: 0
+  - id: 73
+    x: 14
+    y: 68
+    width: 4
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 7
+    rotated: 0
+  - id: 74
+    x: 434
+    y: 0
+    width: 10
+    height: 23
+    xoffset: -3
+    yoffset: 8
+    xadvance: 6
+    rotated: 0
+  - id: 75
+    x: 0
+    y: 68
+    width: 14
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 15
+    rotated: 0
+  - id: 76
+    x: 489
+    y: 49
+    width: 11
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 12
+    rotated: 0
+  - id: 77
+    x: 470
+    y: 49
+    width: 19
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 22
+    rotated: 0
+  - id: 78
+    x: 455
+    y: 49
+    width: 15
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 18
+    rotated: 0
+  - id: 79
+    x: 437
+    y: 49
+    width: 18
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 19
+    rotated: 0
+  - id: 80
+    x: 425
+    y: 49
+    width: 12
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 81
+    x: 416
+    y: 0
+    width: 18
+    height: 23
+    xoffset: 1
+    yoffset: 8
+    xadvance: 19
+    rotated: 0
+  - id: 82
+    x: 411
+    y: 49
+    width: 14
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 15
+    rotated: 0
+  - id: 83
+    x: 399
+    y: 49
+    width: 12
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 13
+    rotated: 0
+  - id: 84
+    x: 385
+    y: 49
+    width: 14
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 13
+    rotated: 0
+  - id: 85
+    x: 371
+    y: 49
+    width: 14
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 17
+    rotated: 0
+  - id: 86
+    x: 356
+    y: 49
+    width: 15
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 87
+    x: 333
+    y: 49
+    width: 23
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 22
+    rotated: 0
+  - id: 88
+    x: 318
+    y: 49
+    width: 15
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 89
+    x: 304
+    y: 49
+    width: 14
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 13
+    rotated: 0
+  - id: 90
+    x: 289
+    y: 49
+    width: 15
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 91
+    x: 392
+    y: 0
+    width: 8
+    height: 23
+    xoffset: 1
+    yoffset: 8
+    xadvance: 8
+    rotated: 0
+  - id: 92
+    x: 161
+    y: 49
+    width: 10
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 9
+    rotated: 0
+  - id: 93
+    x: 384
+    y: 0
+    width: 8
+    height: 23
+    xoffset: 0
+    yoffset: 8
+    xadvance: 8
+    rotated: 0
+  - id: 94
+    x: 54
+    y: 87
+    width: 14
+    height: 13
+    xoffset: 0
+    yoffset: 8
+    xadvance: 13
+    rotated: 0
+  - id: 95
+    x: 316
+    y: 87
+    width: 14
+    height: 4
+    xoffset: -1
+    yoffset: 27
+    xadvance: 11
+    rotated: 0
+  - id: 96
+    x: 269
+    y: 87
+    width: 7
+    height: 6
+    xoffset: 4
+    yoffset: 6
+    xadvance: 14
+    rotated: 0
+  - id: 97
+    x: 0
+    y: 87
+    width: 12
+    height: 15
+    xoffset: 1
+    yoffset: 12
+    xadvance: 13
+    rotated: 0
+  - id: 98
+    x: 407
+    y: 27
+    width: 13
+    height: 20
+    xoffset: 2
+    yoffset: 7
+    xadvance: 15
+    rotated: 0
+  - id: 99
+    x: 30
+    y: 87
+    width: 11
+    height: 14
+    xoffset: 1
+    yoffset: 13
+    xadvance: 11
+    rotated: 0
+  - id: 100
+    x: 394
+    y: 27
+    width: 13
+    height: 20
+    xoffset: 1
+    yoffset: 7
+    xadvance: 15
+    rotated: 0
+  - id: 101
+    x: 498
+    y: 68
+    width: 12
+    height: 15
+    xoffset: 1
+    yoffset: 12
+    xadvance: 13
+    rotated: 0
+  - id: 102
+    x: 277
+    y: 49
+    width: 12
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 8
+    rotated: 0
+  - id: 103
+    x: 278
+    y: 27
+    width: 14
+    height: 21
+    xoffset: 0
+    yoffset: 12
+    xadvance: 13
+    rotated: 0
+  - id: 104
+    x: 381
+    y: 27
+    width: 13
+    height: 20
+    xoffset: 2
+    yoffset: 7
+    xadvance: 15
+    rotated: 0
+  - id: 105
+    x: 272
+    y: 49
+    width: 5
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 6
+    rotated: 0
+  - id: 106
+    x: 263
+    y: 0
+    width: 9
+    height: 25
+    xoffset: -2
+    yoffset: 8
+    xadvance: 6
+    rotated: 0
+  - id: 107
+    x: 369
+    y: 27
+    width: 12
+    height: 20
+    xoffset: 2
+    yoffset: 7
+    xadvance: 13
+    rotated: 0
+  - id: 108
+    x: 366
+    y: 27
+    width: 3
+    height: 20
+    xoffset: 2
+    yoffset: 7
+    xadvance: 6
+    rotated: 0
+  - id: 109
+    x: 478
+    y: 68
+    width: 20
+    height: 15
+    xoffset: 2
+    yoffset: 12
+    xadvance: 22
+    rotated: 0
+  - id: 110
+    x: 465
+    y: 68
+    width: 13
+    height: 15
+    xoffset: 2
+    yoffset: 12
+    xadvance: 15
+    rotated: 0
+  - id: 111
+    x: 451
+    y: 68
+    width: 14
+    height: 15
+    xoffset: 1
+    yoffset: 12
+    xadvance: 15
+    rotated: 0
+  - id: 112
+    x: 265
+    y: 27
+    width: 13
+    height: 21
+    xoffset: 2
+    yoffset: 12
+    xadvance: 15
+    rotated: 0
+  - id: 113
+    x: 252
+    y: 27
+    width: 13
+    height: 21
+    xoffset: 1
+    yoffset: 12
+    xadvance: 15
+    rotated: 0
+  - id: 114
+    x: 442
+    y: 68
+    width: 9
+    height: 15
+    xoffset: 2
+    yoffset: 12
+    xadvance: 10
+    rotated: 0
+  - id: 115
+    x: 432
+    y: 68
+    width: 10
+    height: 15
+    xoffset: 1
+    yoffset: 12
+    xadvance: 11
+    rotated: 0
+  - id: 116
+    x: 298
+    y: 68
+    width: 9
+    height: 18
+    xoffset: 0
+    yoffset: 9
+    xadvance: 8
+    rotated: 0
+  - id: 117
+    x: 419
+    y: 68
+    width: 13
+    height: 15
+    xoffset: 1
+    yoffset: 12
+    xadvance: 15
+    rotated: 0
+  - id: 118
+    x: 406
+    y: 68
+    width: 13
+    height: 15
+    xoffset: 0
+    yoffset: 12
+    xadvance: 12
+    rotated: 0
+  - id: 119
+    x: 386
+    y: 68
+    width: 20
+    height: 15
+    xoffset: 0
+    yoffset: 12
+    xadvance: 19
+    rotated: 0
+  - id: 120
+    x: 372
+    y: 68
+    width: 14
+    height: 15
+    xoffset: 0
+    yoffset: 12
+    xadvance: 13
+    rotated: 0
+  - id: 121
+    x: 239
+    y: 27
+    width: 13
+    height: 21
+    xoffset: 0
+    yoffset: 12
+    xadvance: 12
+    rotated: 0
+  - id: 122
+    x: 360
+    y: 68
+    width: 12
+    height: 15
+    xoffset: 0
+    yoffset: 12
+    xadvance: 11
+    rotated: 0
+  - id: 123
+    x: 374
+    y: 0
+    width: 10
+    height: 23
+    xoffset: 0
+    yoffset: 8
+    xadvance: 9
+    rotated: 0
+  - id: 124
+    x: 30
+    y: 0
+    width: 4
+    height: 26
+    xoffset: 5
+    yoffset: 7
+    xadvance: 13
+    rotated: 0
+  - id: 125
+    x: 364
+    y: 0
+    width: 10
+    height: 23
+    xoffset: 0
+    yoffset: 8
+    xadvance: 9
+    rotated: 0
+  - id: 126
+    x: 276
+    y: 87
+    width: 13
+    height: 5
+    xoffset: 1
+    yoffset: 15
+    xadvance: 14
+    rotated: 0
+  - id: 127
+    x: 95
+    y: 49
+    width: 12
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 161
+    x: 241
+    y: 68
+    width: 5
+    height: 18
+    xoffset: 1
+    yoffset: 13
+    xadvance: 6
+    rotated: 0
+  - id: 162
+    x: 84
+    y: 49
+    width: 11
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 163
+    x: 69
+    y: 49
+    width: 15
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 164
+    x: 144
+    y: 87
+    width: 13
+    height: 12
+    xoffset: 1
+    yoffset: 12
+    xadvance: 14
+    rotated: 0
+  - id: 165
+    x: 54
+    y: 49
+    width: 15
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 166
+    x: 26
+    y: 0
+    width: 4
+    height: 26
+    xoffset: 5
+    yoffset: 7
+    xadvance: 13
+    rotated: 0
+  - id: 167
+    x: 355
+    y: 27
+    width: 11
+    height: 20
+    xoffset: 1
+    yoffset: 7
+    xadvance: 12
+    rotated: 0
+  - id: 168
+    x: 342
+    y: 87
+    width: 9
+    height: 3
+    xoffset: 3
+    yoffset: 9
+    xadvance: 14
+    rotated: 0
+  - id: 169
+    x: 222
+    y: 68
+    width: 19
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 20
+    rotated: 0
+  - id: 170
+    x: 193
+    y: 87
+    width: 9
+    height: 10
+    xoffset: 0
+    yoffset: 8
+    xadvance: 9
+    rotated: 0
+  - id: 171
+    x: 170
+    y: 87
+    width: 13
+    height: 11
+    xoffset: 0
+    yoffset: 15
+    xadvance: 12
+    rotated: 0
+  - id: 172
+    x: 230
+    y: 87
+    width: 13
+    height: 8
+    xoffset: 1
+    yoffset: 16
+    xadvance: 14
+    rotated: 0
+  - id: 173
+    x: 309
+    y: 87
+    width: 7
+    height: 4
+    xoffset: 1
+    yoffset: 18
+    xadvance: 8
+    rotated: 0
+  - id: 174
+    x: 203
+    y: 68
+    width: 19
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 20
+    rotated: 0
+  - id: 175
+    x: 294
+    y: 87
+    width: 15
+    height: 4
+    xoffset: -1
+    yoffset: 5
+    xadvance: 12
+    rotated: 0
+  - id: 176
+    x: 221
+    y: 87
+    width: 9
+    height: 8
+    xoffset: 1
+    yoffset: 9
+    xadvance: 10
+    rotated: 0
+  - id: 177
+    x: 307
+    y: 68
+    width: 13
+    height: 17
+    xoffset: 1
+    yoffset: 11
+    xadvance: 14
+    rotated: 0
+  - id: 178
+    x: 135
+    y: 87
+    width: 9
+    height: 12
+    xoffset: 0
+    yoffset: 8
+    xadvance: 8
+    rotated: 0
+  - id: 179
+    x: 126
+    y: 87
+    width: 9
+    height: 12
+    xoffset: 0
+    yoffset: 8
+    xadvance: 8
+    rotated: 0
+  - id: 180
+    x: 262
+    y: 87
+    width: 7
+    height: 6
+    xoffset: 4
+    yoffset: 6
+    xadvance: 14
+    rotated: 0
+  - id: 181
+    x: 193
+    y: 27
+    width: 12
+    height: 21
+    xoffset: 2
+    yoffset: 12
+    xadvance: 15
+    rotated: 0
+  - id: 182
+    x: 350
+    y: 0
+    width: 14
+    height: 23
+    xoffset: 1
+    yoffset: 7
+    xadvance: 16
+    rotated: 0
+  - id: 183
+    x: 289
+    y: 87
+    width: 5
+    height: 4
+    xoffset: 1
+    yoffset: 16
+    xadvance: 6
+    rotated: 0
+  - id: 184
+    x: 215
+    y: 87
+    width: 6
+    height: 8
+    xoffset: 0
+    yoffset: 25
+    xadvance: 5
+    rotated: 0
+  - id: 185
+    x: 120
+    y: 87
+    width: 6
+    height: 12
+    xoffset: 1
+    yoffset: 8
+    xadvance: 8
+    rotated: 0
+  - id: 186
+    x: 183
+    y: 87
+    width: 10
+    height: 10
+    xoffset: 0
+    yoffset: 8
+    xadvance: 9
+    rotated: 0
+  - id: 187
+    x: 157
+    y: 87
+    width: 13
+    height: 11
+    xoffset: 0
+    yoffset: 15
+    xadvance: 12
+    rotated: 0
+  - id: 188
+    x: 37
+    y: 49
+    width: 17
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 19
+    rotated: 0
+  - id: 189
+    x: 19
+    y: 49
+    width: 18
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 19
+    rotated: 0
+  - id: 190
+    x: 0
+    y: 49
+    width: 19
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 19
+    rotated: 0
+  - id: 191
+    x: 192
+    y: 68
+    width: 11
+    height: 18
+    xoffset: 0
+    yoffset: 13
+    xadvance: 10
+    rotated: 0
+  - id: 192
+    x: 247
+    y: 0
+    width: 16
+    height: 25
+    xoffset: 0
+    yoffset: 2
+    xadvance: 15
+    rotated: 0
+  - id: 193
+    x: 231
+    y: 0
+    width: 16
+    height: 25
+    xoffset: 0
+    yoffset: 2
+    xadvance: 15
+    rotated: 0
+  - id: 194
+    x: 215
+    y: 0
+    width: 16
+    height: 25
+    xoffset: 0
+    yoffset: 2
+    xadvance: 15
+    rotated: 0
+  - id: 195
+    x: 334
+    y: 0
+    width: 16
+    height: 24
+    xoffset: 0
+    yoffset: 3
+    xadvance: 15
+    rotated: 0
+  - id: 196
+    x: 0
+    y: 27
+    width: 16
+    height: 22
+    xoffset: 0
+    yoffset: 5
+    xadvance: 15
+    rotated: 0
+  - id: 197
+    x: 318
+    y: 0
+    width: 16
+    height: 24
+    xoffset: 0
+    yoffset: 3
+    xadvance: 15
+    rotated: 0
+  - id: 198
+    x: 481
+    y: 27
+    width: 21
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 21
+    rotated: 0
+  - id: 199
+    x: 200
+    y: 0
+    width: 15
+    height: 25
+    xoffset: 1
+    yoffset: 8
+    xadvance: 15
+    rotated: 0
+  - id: 200
+    x: 189
+    y: 0
+    width: 11
+    height: 25
+    xoffset: 2
+    yoffset: 2
+    xadvance: 13
+    rotated: 0
+  - id: 201
+    x: 178
+    y: 0
+    width: 11
+    height: 25
+    xoffset: 2
+    yoffset: 2
+    xadvance: 13
+    rotated: 0
+  - id: 202
+    x: 167
+    y: 0
+    width: 11
+    height: 25
+    xoffset: 2
+    yoffset: 2
+    xadvance: 13
+    rotated: 0
+  - id: 203
+    x: 497
+    y: 0
+    width: 11
+    height: 22
+    xoffset: 2
+    yoffset: 5
+    xadvance: 13
+    rotated: 0
+  - id: 204
+    x: 160
+    y: 0
+    width: 7
+    height: 25
+    xoffset: -1
+    yoffset: 2
+    xadvance: 7
+    rotated: 0
+  - id: 205
+    x: 153
+    y: 0
+    width: 7
+    height: 25
+    xoffset: 2
+    yoffset: 2
+    xadvance: 7
+    rotated: 0
+  - id: 206
+    x: 144
+    y: 0
+    width: 9
+    height: 25
+    xoffset: -1
+    yoffset: 2
+    xadvance: 7
+    rotated: 0
+  - id: 207
+    x: 488
+    y: 0
+    width: 9
+    height: 22
+    xoffset: -1
+    yoffset: 5
+    xadvance: 7
+    rotated: 0
+  - id: 208
+    x: 464
+    y: 27
+    width: 17
+    height: 19
+    xoffset: 0
+    yoffset: 8
+    xadvance: 17
+    rotated: 0
+  - id: 209
+    x: 303
+    y: 0
+    width: 15
+    height: 24
+    xoffset: 2
+    yoffset: 3
+    xadvance: 18
+    rotated: 0
+  - id: 210
+    x: 126
+    y: 0
+    width: 18
+    height: 25
+    xoffset: 1
+    yoffset: 2
+    xadvance: 19
+    rotated: 0
+  - id: 211
+    x: 108
+    y: 0
+    width: 18
+    height: 25
+    xoffset: 1
+    yoffset: 2
+    xadvance: 19
+    rotated: 0
+  - id: 212
+    x: 90
+    y: 0
+    width: 18
+    height: 25
+    xoffset: 1
+    yoffset: 2
+    xadvance: 19
+    rotated: 0
+  - id: 213
+    x: 285
+    y: 0
+    width: 18
+    height: 24
+    xoffset: 1
+    yoffset: 3
+    xadvance: 19
+    rotated: 0
+  - id: 214
+    x: 470
+    y: 0
+    width: 18
+    height: 22
+    xoffset: 1
+    yoffset: 5
+    xadvance: 19
+    rotated: 0
+  - id: 215
+    x: 107
+    y: 87
+    width: 13
+    height: 12
+    xoffset: 1
+    yoffset: 12
+    xadvance: 14
+    rotated: 0
+  - id: 216
+    x: 446
+    y: 27
+    width: 18
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 19
+    rotated: 0
+  - id: 217
+    x: 76
+    y: 0
+    width: 14
+    height: 25
+    xoffset: 2
+    yoffset: 2
+    xadvance: 17
+    rotated: 0
+  - id: 218
+    x: 62
+    y: 0
+    width: 14
+    height: 25
+    xoffset: 2
+    yoffset: 2
+    xadvance: 17
+    rotated: 0
+  - id: 219
+    x: 48
+    y: 0
+    width: 14
+    height: 25
+    xoffset: 2
+    yoffset: 2
+    xadvance: 17
+    rotated: 0
+  - id: 220
+    x: 456
+    y: 0
+    width: 14
+    height: 22
+    xoffset: 2
+    yoffset: 5
+    xadvance: 17
+    rotated: 0
+  - id: 221
+    x: 34
+    y: 0
+    width: 14
+    height: 25
+    xoffset: 0
+    yoffset: 2
+    xadvance: 13
+    rotated: 0
+  - id: 222
+    x: 433
+    y: 27
+    width: 13
+    height: 19
+    xoffset: 2
+    yoffset: 8
+    xadvance: 15
+    rotated: 0
+  - id: 223
+    x: 342
+    y: 27
+    width: 13
+    height: 20
+    xoffset: 2
+    yoffset: 7
+    xadvance: 15
+    rotated: 0
+  - id: 224
+    x: 181
+    y: 27
+    width: 12
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 13
+    rotated: 0
+  - id: 225
+    x: 169
+    y: 27
+    width: 12
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 13
+    rotated: 0
+  - id: 226
+    x: 157
+    y: 27
+    width: 12
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 13
+    rotated: 0
+  - id: 227
+    x: 330
+    y: 27
+    width: 12
+    height: 20
+    xoffset: 1
+    yoffset: 7
+    xadvance: 13
+    rotated: 0
+  - id: 228
+    x: 180
+    y: 68
+    width: 12
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 13
+    rotated: 0
+  - id: 229
+    x: 444
+    y: 0
+    width: 12
+    height: 22
+    xoffset: 1
+    yoffset: 5
+    xadvance: 13
+    rotated: 0
+  - id: 230
+    x: 340
+    y: 68
+    width: 20
+    height: 15
+    xoffset: 1
+    yoffset: 12
+    xadvance: 21
+    rotated: 0
+  - id: 231
+    x: 319
+    y: 27
+    width: 11
+    height: 20
+    xoffset: 1
+    yoffset: 13
+    xadvance: 11
+    rotated: 0
+  - id: 232
+    x: 145
+    y: 27
+    width: 12
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 13
+    rotated: 0
+  - id: 233
+    x: 133
+    y: 27
+    width: 12
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 13
+    rotated: 0
+  - id: 234
+    x: 121
+    y: 27
+    width: 12
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 13
+    rotated: 0
+  - id: 235
+    x: 168
+    y: 68
+    width: 12
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 13
+    rotated: 0
+  - id: 236
+    x: 114
+    y: 27
+    width: 7
+    height: 21
+    xoffset: -1
+    yoffset: 6
+    xadvance: 6
+    rotated: 0
+  - id: 237
+    x: 107
+    y: 27
+    width: 7
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 6
+    rotated: 0
+  - id: 238
+    x: 97
+    y: 27
+    width: 10
+    height: 21
+    xoffset: -1
+    yoffset: 6
+    xadvance: 6
+    rotated: 0
+  - id: 239
+    x: 159
+    y: 68
+    width: 9
+    height: 18
+    xoffset: -1
+    yoffset: 9
+    xadvance: 6
+    rotated: 0
+  - id: 240
+    x: 420
+    y: 27
+    width: 13
+    height: 19
+    xoffset: 1
+    yoffset: 8
+    xadvance: 14
+    rotated: 0
+  - id: 241
+    x: 306
+    y: 27
+    width: 13
+    height: 20
+    xoffset: 2
+    yoffset: 7
+    xadvance: 15
+    rotated: 0
+  - id: 242
+    x: 83
+    y: 27
+    width: 14
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 15
+    rotated: 0
+  - id: 243
+    x: 69
+    y: 27
+    width: 14
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 15
+    rotated: 0
+  - id: 244
+    x: 55
+    y: 27
+    width: 14
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 15
+    rotated: 0
+  - id: 245
+    x: 292
+    y: 27
+    width: 14
+    height: 20
+    xoffset: 1
+    yoffset: 7
+    xadvance: 15
+    rotated: 0
+  - id: 246
+    x: 145
+    y: 68
+    width: 14
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 15
+    rotated: 0
+  - id: 247
+    x: 94
+    y: 87
+    width: 13
+    height: 12
+    xoffset: 1
+    yoffset: 12
+    xadvance: 14
+    rotated: 0
+  - id: 248
+    x: 326
+    y: 68
+    width: 14
+    height: 16
+    xoffset: 1
+    yoffset: 12
+    xadvance: 15
+    rotated: 0
+  - id: 249
+    x: 42
+    y: 27
+    width: 13
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 15
+    rotated: 0
+  - id: 250
+    x: 29
+    y: 27
+    width: 13
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 15
+    rotated: 0
+  - id: 251
+    x: 16
+    y: 27
+    width: 13
+    height: 21
+    xoffset: 1
+    yoffset: 6
+    xadvance: 15
+    rotated: 0
+  - id: 252
+    x: 132
+    y: 68
+    width: 13
+    height: 18
+    xoffset: 1
+    yoffset: 9
+    xadvance: 15
+    rotated: 0
+  - id: 253
+    x: 0
+    y: 0
+    width: 13
+    height: 27
+    xoffset: 0
+    yoffset: 6
+    xadvance: 12
+    rotated: 0
+  - id: 254
+    x: 13
+    y: 0
+    width: 13
+    height: 26
+    xoffset: 2
+    yoffset: 7
+    xadvance: 15
+    rotated: 0
+  - id: 255
+    x: 272
+    y: 0
+    width: 13
+    height: 24
+    xoffset: 0
+    yoffset: 9
+    xadvance: 12
+    rotated: 0
+  kerning:
+  - first: 253
+    second: 34
+    amount: 1
+  - first: 253
+    second: 39
+    amount: 1
+  - first: 253
+    second: 44
+    amount: -1
+  - first: 253
+    second: 46
+    amount: -1
+  - first: 221
+    second: 44
+    amount: -1
+  - first: 221
+    second: 46
+    amount: -1
+  - first: 221
+    second: 65
+    amount: -1
+  - first: 221
+    second: 97
+    amount: -1
+  - first: 221
+    second: 99
+    amount: -1
+  - first: 221
+    second: 100
+    amount: -1
+  - first: 221
+    second: 101
+    amount: -1
+  - first: 221
+    second: 109
+    amount: -1
+  - first: 221
+    second: 110
+    amount: -1
+  - first: 221
+    second: 111
+    amount: -1
+  - first: 221
+    second: 112
+    amount: -1
+  - first: 221
+    second: 113
+    amount: -1
+  - first: 221
+    second: 114
+    amount: -1
+  - first: 221
+    second: 115
+    amount: -1
+  - first: 221
+    second: 117
+    amount: -1
+  - first: 221
+    second: 192
+    amount: -1
+  - first: 221
+    second: 193
+    amount: -1
+  - first: 221
+    second: 194
+    amount: -1
+  - first: 221
+    second: 195
+    amount: -1
+  - first: 221
+    second: 196
+    amount: -1
+  - first: 221
+    second: 197
+    amount: -1
+  - first: 221
+    second: 224
+    amount: -1
+  - first: 221
+    second: 225
+    amount: -1
+  - first: 221
+    second: 226
+    amount: -1
+  - first: 221
+    second: 227
+    amount: -1
+  - first: 221
+    second: 228
+    amount: -1
+  - first: 221
+    second: 229
+    amount: -1
+  - first: 221
+    second: 230
+    amount: -1
+  - first: 221
+    second: 231
+    amount: -1
+  - first: 221
+    second: 232
+    amount: -1
+  - first: 221
+    second: 233
+    amount: -1
+  - first: 221
+    second: 234
+    amount: -1
+  - first: 221
+    second: 235
+    amount: -1
+  - first: 221
+    second: 242
+    amount: -1
+  - first: 221
+    second: 243
+    amount: -1
+  - first: 221
+    second: 244
+    amount: -1
+  - first: 221
+    second: 245
+    amount: -1
+  - first: 221
+    second: 246
+    amount: -1
+  - first: 221
+    second: 248
+    amount: -1
+  - first: 221
+    second: 249
+    amount: -1
+  - first: 221
+    second: 250
+    amount: -1
+  - first: 221
+    second: 251
+    amount: -1
+  - first: 221
+    second: 252
+    amount: -1
+  - first: 212
+    second: 44
+    amount: -1
+  - first: 212
+    second: 46
+    amount: -1
+  - first: 212
+    second: 84
+    amount: -1
+  - first: 211
+    second: 44
+    amount: -1
+  - first: 211
+    second: 46
+    amount: -1
+  - first: 211
+    second: 84
+    amount: -1
+  - first: 210
+    second: 44
+    amount: -1
+  - first: 210
+    second: 46
+    amount: -1
+  - first: 210
+    second: 84
+    amount: -1
+  - first: 202
+    second: 74
+    amount: 1
+  - first: 201
+    second: 74
+    amount: 1
+  - first: 200
+    second: 74
+    amount: 1
+  - first: 194
+    second: 34
+    amount: -2
+  - first: 194
+    second: 39
+    amount: -2
+  - first: 194
+    second: 74
+    amount: 3
+  - first: 194
+    second: 84
+    amount: -2
+  - first: 194
+    second: 86
+    amount: -1
+  - first: 194
+    second: 87
+    amount: -1
+  - first: 194
+    second: 89
+    amount: -1
+  - first: 194
+    second: 221
+    amount: -1
+  - first: 193
+    second: 34
+    amount: -2
+  - first: 193
+    second: 39
+    amount: -2
+  - first: 193
+    second: 74
+    amount: 3
+  - first: 193
+    second: 84
+    amount: -2
+  - first: 193
+    second: 86
+    amount: -1
+  - first: 193
+    second: 87
+    amount: -1
+  - first: 193
+    second: 89
+    amount: -1
+  - first: 193
+    second: 221
+    amount: -1
+  - first: 192
+    second: 34
+    amount: -2
+  - first: 192
+    second: 39
+    amount: -2
+  - first: 192
+    second: 74
+    amount: 3
+  - first: 192
+    second: 84
+    amount: -2
+  - first: 192
+    second: 86
+    amount: -1
+  - first: 192
+    second: 87
+    amount: -1
+  - first: 192
+    second: 89
+    amount: -1
+  - first: 192
+    second: 221
+    amount: -1
+  - first: 255
+    second: 34
+    amount: 1
+  - first: 255
+    second: 39
+    amount: 1
+  - first: 255
+    second: 44
+    amount: -1
+  - first: 255
+    second: 46
+    amount: -1
+  - first: 213
+    second: 44
+    amount: -1
+  - first: 213
+    second: 46
+    amount: -1
+  - first: 213
+    second: 84
+    amount: -1
+  - first: 197
+    second: 34
+    amount: -2
+  - first: 197
+    second: 39
+    amount: -2
+  - first: 197
+    second: 74
+    amount: 3
+  - first: 197
+    second: 84
+    amount: -2
+  - first: 197
+    second: 86
+    amount: -1
+  - first: 197
+    second: 87
+    amount: -1
+  - first: 197
+    second: 89
+    amount: -1
+  - first: 197
+    second: 221
+    amount: -1
+  - first: 195
+    second: 34
+    amount: -2
+  - first: 195
+    second: 39
+    amount: -2
+  - first: 195
+    second: 74
+    amount: 3
+  - first: 195
+    second: 84
+    amount: -2
+  - first: 195
+    second: 86
+    amount: -1
+  - first: 195
+    second: 87
+    amount: -1
+  - first: 195
+    second: 89
+    amount: -1
+  - first: 195
+    second: 221
+    amount: -1
+  - first: 123
+    second: 74
+    amount: 2
+  - first: 91
+    second: 74
+    amount: 2
+  - first: 40
+    second: 74
+    amount: 2
+  - first: 81
+    second: 44
+    amount: -1
+  - first: 81
+    second: 46
+    amount: -1
+  - first: 81
+    second: 84
+    amount: -1
+  - first: 214
+    second: 44
+    amount: -1
+  - first: 214
+    second: 46
+    amount: -1
+  - first: 214
+    second: 84
+    amount: -1
+  - first: 203
+    second: 74
+    amount: 1
+  - first: 196
+    second: 34
+    amount: -2
+  - first: 196
+    second: 39
+    amount: -2
+  - first: 196
+    second: 74
+    amount: 3
+  - first: 196
+    second: 84
+    amount: -2
+  - first: 196
+    second: 86
+    amount: -1
+  - first: 196
+    second: 87
+    amount: -1
+  - first: 196
+    second: 89
+    amount: -1
+  - first: 196
+    second: 221
+    amount: -1
+  - first: 121
+    second: 34
+    amount: 1
+  - first: 121
+    second: 39
+    amount: 1
+  - first: 121
+    second: 44
+    amount: -1
+  - first: 121
+    second: 46
+    amount: -1
+  - first: 222
+    second: 44
+    amount: -3
+  - first: 222
+    second: 46
+    amount: -3
+  - first: 222
+    second: 65
+    amount: -1
+  - first: 222
+    second: 192
+    amount: -1
+  - first: 222
+    second: 193
+    amount: -1
+  - first: 222
+    second: 194
+    amount: -1
+  - first: 222
+    second: 195
+    amount: -1
+  - first: 222
+    second: 196
+    amount: -1
+  - first: 222
+    second: 197
+    amount: -1
+  - first: 216
+    second: 44
+    amount: -1
+  - first: 216
+    second: 46
+    amount: -1
+  - first: 216
+    second: 84
+    amount: -1
+  - first: 208
+    second: 44
+    amount: -1
+  - first: 208
+    second: 46
+    amount: -1
+  - first: 208
+    second: 84
+    amount: -1
+  - first: 198
+    second: 74
+    amount: 1
+  - first: 102
+    second: 34
+    amount: 1
+  - first: 102
+    second: 39
+    amount: 1
+  - first: 89
+    second: 44
+    amount: -1
+  - first: 89
+    second: 46
+    amount: -1
+  - first: 89
+    second: 65
+    amount: -1
+  - first: 89
+    second: 97
+    amount: -1
+  - first: 89
+    second: 99
+    amount: -1
+  - first: 89
+    second: 100
+    amount: -1
+  - first: 89
+    second: 101
+    amount: -1
+  - first: 89
+    second: 109
+    amount: -1
+  - first: 89
+    second: 110
+    amount: -1
+  - first: 89
+    second: 111
+    amount: -1
+  - first: 89
+    second: 112
+    amount: -1
+  - first: 89
+    second: 113
+    amount: -1
+  - first: 89
+    second: 114
+    amount: -1
+  - first: 89
+    second: 115
+    amount: -1
+  - first: 89
+    second: 117
+    amount: -1
+  - first: 89
+    second: 192
+    amount: -1
+  - first: 89
+    second: 193
+    amount: -1
+  - first: 89
+    second: 194
+    amount: -1
+  - first: 89
+    second: 195
+    amount: -1
+  - first: 89
+    second: 196
+    amount: -1
+  - first: 89
+    second: 197
+    amount: -1
+  - first: 89
+    second: 224
+    amount: -1
+  - first: 89
+    second: 225
+    amount: -1
+  - first: 89
+    second: 226
+    amount: -1
+  - first: 89
+    second: 227
+    amount: -1
+  - first: 89
+    second: 228
+    amount: -1
+  - first: 89
+    second: 229
+    amount: -1
+  - first: 89
+    second: 230
+    amount: -1
+  - first: 89
+    second: 231
+    amount: -1
+  - first: 89
+    second: 232
+    amount: -1
+  - first: 89
+    second: 233
+    amount: -1
+  - first: 89
+    second: 234
+    amount: -1
+  - first: 89
+    second: 235
+    amount: -1
+  - first: 89
+    second: 242
+    amount: -1
+  - first: 89
+    second: 243
+    amount: -1
+  - first: 89
+    second: 244
+    amount: -1
+  - first: 89
+    second: 245
+    amount: -1
+  - first: 89
+    second: 246
+    amount: -1
+  - first: 89
+    second: 248
+    amount: -1
+  - first: 89
+    second: 249
+    amount: -1
+  - first: 89
+    second: 250
+    amount: -1
+  - first: 89
+    second: 251
+    amount: -1
+  - first: 89
+    second: 252
+    amount: -1
+  - first: 87
+    second: 44
+    amount: -1
+  - first: 87
+    second: 46
+    amount: -1
+  - first: 87
+    second: 65
+    amount: -1
+  - first: 87
+    second: 192
+    amount: -1
+  - first: 87
+    second: 193
+    amount: -1
+  - first: 87
+    second: 194
+    amount: -1
+  - first: 87
+    second: 195
+    amount: -1
+  - first: 87
+    second: 196
+    amount: -1
+  - first: 87
+    second: 197
+    amount: -1
+  - first: 86
+    second: 44
+    amount: -1
+  - first: 86
+    second: 46
+    amount: -1
+  - first: 86
+    second: 65
+    amount: -1
+  - first: 86
+    second: 192
+    amount: -1
+  - first: 86
+    second: 193
+    amount: -1
+  - first: 86
+    second: 194
+    amount: -1
+  - first: 86
+    second: 195
+    amount: -1
+  - first: 86
+    second: 196
+    amount: -1
+  - first: 86
+    second: 197
+    amount: -1
+  - first: 84
+    second: 44
+    amount: -1
+  - first: 84
+    second: 45
+    amount: -1
+  - first: 84
+    second: 46
+    amount: -1
+  - first: 84
+    second: 65
+    amount: -2
+  - first: 84
+    second: 97
+    amount: -2
+  - first: 84
+    second: 99
+    amount: -2
+  - first: 84
+    second: 100
+    amount: -2
+  - first: 84
+    second: 101
+    amount: -2
+  - first: 84
+    second: 103
+    amount: -2
+  - first: 84
+    second: 109
+    amount: -1
+  - first: 84
+    second: 110
+    amount: -1
+  - first: 84
+    second: 111
+    amount: -2
+  - first: 84
+    second: 112
+    amount: -1
+  - first: 84
+    second: 113
+    amount: -2
+  - first: 84
+    second: 114
+    amount: -1
+  - first: 84
+    second: 115
+    amount: -1
+  - first: 84
+    second: 117
+    amount: -1
+  - first: 84
+    second: 122
+    amount: -1
+  - first: 84
+    second: 192
+    amount: -2
+  - first: 84
+    second: 193
+    amount: -2
+  - first: 84
+    second: 194
+    amount: -2
+  - first: 84
+    second: 195
+    amount: -2
+  - first: 84
+    second: 196
+    amount: -2
+  - first: 84
+    second: 197
+    amount: -2
+  - first: 84
+    second: 224
+    amount: -2
+  - first: 84
+    second: 225
+    amount: -2
+  - first: 84
+    second: 226
+    amount: -2
+  - first: 84
+    second: 227
+    amount: -2
+  - first: 84
+    second: 228
+    amount: -2
+  - first: 84
+    second: 229
+    amount: -2
+  - first: 84
+    second: 230
+    amount: -2
+  - first: 84
+    second: 231
+    amount: -2
+  - first: 84
+    second: 232
+    amount: -2
+  - first: 84
+    second: 233
+    amount: -2
+  - first: 84
+    second: 234
+    amount: -2
+  - first: 84
+    second: 235
+    amount: -2
+  - first: 84
+    second: 242
+    amount: -2
+  - first: 84
+    second: 243
+    amount: -2
+  - first: 84
+    second: 244
+    amount: -2
+  - first: 84
+    second: 245
+    amount: -2
+  - first: 84
+    second: 246
+    amount: -2
+  - first: 84
+    second: 248
+    amount: -2
+  - first: 84
+    second: 249
+    amount: -1
+  - first: 84
+    second: 250
+    amount: -1
+  - first: 84
+    second: 251
+    amount: -1
+  - first: 84
+    second: 252
+    amount: -1
+  - first: 80
+    second: 44
+    amount: -3
+  - first: 80
+    second: 46
+    amount: -3
+  - first: 80
+    second: 65
+    amount: -1
+  - first: 80
+    second: 192
+    amount: -1
+  - first: 80
+    second: 193
+    amount: -1
+  - first: 80
+    second: 194
+    amount: -1
+  - first: 80
+    second: 195
+    amount: -1
+  - first: 80
+    second: 196
+    amount: -1
+  - first: 80
+    second: 197
+    amount: -1
+  - first: 79
+    second: 44
+    amount: -1
+  - first: 79
+    second: 46
+    amount: -1
+  - first: 79
+    second: 84
+    amount: -1
+  - first: 76
+    second: 34
+    amount: -2
+  - first: 76
+    second: 39
+    amount: -2
+  - first: 76
+    second: 89
+    amount: -1
+  - first: 76
+    second: 221
+    amount: -1
+  - first: 70
+    second: 44
+    amount: -1
+  - first: 70
+    second: 46
+    amount: -1
+  - first: 69
+    second: 74
+    amount: 1
+  - first: 68
+    second: 44
+    amount: -1
+  - first: 68
+    second: 46
+    amount: -1
+  - first: 68
+    second: 84
+    amount: -1
+  - first: 66
+    second: 44
+    amount: -1
+  - first: 66
+    second: 46
+    amount: -1
+  - first: 66
+    second: 84
+    amount: -1
+  - first: 65
+    second: 34
+    amount: -2
+  - first: 65
+    second: 39
+    amount: -2
+  - first: 65
+    second: 74
+    amount: 3
+  - first: 65
+    second: 84
+    amount: -2
+  - first: 65
+    second: 86
+    amount: -1
+  - first: 65
+    second: 87
+    amount: -1
+  - first: 65
+    second: 89
+    amount: -1
+  - first: 65
+    second: 221
+    amount: -1
+  - first: 119
+    second: 34
+    amount: 1
+  - first: 119
+    second: 39
+    amount: 1
+  - first: 119
+    second: 44
+    amount: -1
+  - first: 119
+    second: 46
+    amount: -1
+  - first: 118
+    second: 34
+    amount: 1
+  - first: 118
+    second: 39
+    amount: 1
+  - first: 118
+    second: 44
+    amount: -1
+  - first: 118
+    second: 46
+    amount: -1
+  - first: 114
+    second: 34
+    amount: 1
+  - first: 114
+    second: 39
+    amount: 1
+  - first: 44
+    second: 67
+    amount: -1
+  - first: 44
+    second: 71
+    amount: -1
+  - first: 44
+    second: 79
+    amount: -1
+  - first: 44
+    second: 81
+    amount: -1
+  - first: 44
+    second: 84
+    amount: -2
+  - first: 44
+    second: 86
+    amount: -1
+  - first: 44
+    second: 87
+    amount: -1
+  - first: 44
+    second: 89
+    amount: -1
+  - first: 44
+    second: 199
+    amount: -1
+  - first: 44
+    second: 210
+    amount: -1
+  - first: 44
+    second: 211
+    amount: -1
+  - first: 44
+    second: 212
+    amount: -1
+  - first: 44
+    second: 213
+    amount: -1
+  - first: 44
+    second: 214
+    amount: -1
+  - first: 44
+    second: 216
+    amount: -1
+  - first: 44
+    second: 221
+    amount: -1
+  - first: 39
+    second: 65
+    amount: -2
+  - first: 39
+    second: 97
+    amount: -1
+  - first: 39
+    second: 99
+    amount: -1
+  - first: 39
+    second: 100
+    amount: -1
+  - first: 39
+    second: 101
+    amount: -1
+  - first: 39
+    second: 103
+    amount: -1
+  - first: 39
+    second: 109
+    amount: -1
+  - first: 39
+    second: 110
+    amount: -1
+  - first: 39
+    second: 111
+    amount: -1
+  - first: 39
+    second: 112
+    amount: -1
+  - first: 39
+    second: 113
+    amount: -1
+  - first: 39
+    second: 114
+    amount: -1
+  - first: 39
+    second: 115
+    amount: -1
+  - first: 39
+    second: 117
+    amount: -1
+  - first: 39
+    second: 192
+    amount: -2
+  - first: 39
+    second: 193
+    amount: -2
+  - first: 39
+    second: 194
+    amount: -2
+  - first: 39
+    second: 195
+    amount: -2
+  - first: 39
+    second: 196
+    amount: -2
+  - first: 39
+    second: 197
+    amount: -2
+  - first: 39
+    second: 224
+    amount: -1
+  - first: 39
+    second: 225
+    amount: -1
+  - first: 39
+    second: 226
+    amount: -1
+  - first: 39
+    second: 227
+    amount: -1
+  - first: 39
+    second: 228
+    amount: -1
+  - first: 39
+    second: 229
+    amount: -1
+  - first: 39
+    second: 230
+    amount: -1
+  - first: 39
+    second: 231
+    amount: -1
+  - first: 39
+    second: 232
+    amount: -1
+  - first: 39
+    second: 233
+    amount: -1
+  - first: 39
+    second: 234
+    amount: -1
+  - first: 39
+    second: 235
+    amount: -1
+  - first: 39
+    second: 242
+    amount: -1
+  - first: 39
+    second: 243
+    amount: -1
+  - first: 39
+    second: 244
+    amount: -1
+  - first: 39
+    second: 245
+    amount: -1
+  - first: 39
+    second: 246
+    amount: -1
+  - first: 39
+    second: 248
+    amount: -1
+  - first: 39
+    second: 249
+    amount: -1
+  - first: 39
+    second: 250
+    amount: -1
+  - first: 39
+    second: 251
+    amount: -1
+  - first: 39
+    second: 252
+    amount: -1
+  - first: 34
+    second: 65
+    amount: -2
+  - first: 34
+    second: 97
+    amount: -1
+  - first: 34
+    second: 99
+    amount: -1
+  - first: 34
+    second: 100
+    amount: -1
+  - first: 34
+    second: 101
+    amount: -1
+  - first: 34
+    second: 103
+    amount: -1
+  - first: 34
+    second: 109
+    amount: -1
+  - first: 34
+    second: 110
+    amount: -1
+  - first: 34
+    second: 111
+    amount: -1
+  - first: 34
+    second: 112
+    amount: -1
+  - first: 34
+    second: 113
+    amount: -1
+  - first: 34
+    second: 114
+    amount: -1
+  - first: 34
+    second: 115
+    amount: -1
+  - first: 34
+    second: 117
+    amount: -1
+  - first: 34
+    second: 192
+    amount: -2
+  - first: 34
+    second: 193
+    amount: -2
+  - first: 34
+    second: 194
+    amount: -2
+  - first: 34
+    second: 195
+    amount: -2
+  - first: 34
+    second: 196
+    amount: -2
+  - first: 34
+    second: 197
+    amount: -2
+  - first: 34
+    second: 224
+    amount: -1
+  - first: 34
+    second: 225
+    amount: -1
+  - first: 34
+    second: 226
+    amount: -1
+  - first: 34
+    second: 227
+    amount: -1
+  - first: 34
+    second: 228
+    amount: -1
+  - first: 34
+    second: 229
+    amount: -1
+  - first: 34
+    second: 230
+    amount: -1
+  - first: 34
+    second: 231
+    amount: -1
+  - first: 34
+    second: 232
+    amount: -1
+  - first: 34
+    second: 233
+    amount: -1
+  - first: 34
+    second: 234
+    amount: -1
+  - first: 34
+    second: 235
+    amount: -1
+  - first: 34
+    second: 242
+    amount: -1
+  - first: 34
+    second: 243
+    amount: -1
+  - first: 34
+    second: 244
+    amount: -1
+  - first: 34
+    second: 245
+    amount: -1
+  - first: 34
+    second: 246
+    amount: -1
+  - first: 34
+    second: 248
+    amount: -1
+  - first: 34
+    second: 249
+    amount: -1
+  - first: 34
+    second: 250
+    amount: -1
+  - first: 34
+    second: 251
+    amount: -1
+  - first: 34
+    second: 252
+    amount: -1
+  - first: 45
+    second: 84
+    amount: -1
+  - first: 46
+    second: 67
+    amount: -1
+  - first: 46
+    second: 71
+    amount: -1
+  - first: 46
+    second: 79
+    amount: -1
+  - first: 46
+    second: 81
+    amount: -1
+  - first: 46
+    second: 84
+    amount: -2
+  - first: 46
+    second: 86
+    amount: -1
+  - first: 46
+    second: 87
+    amount: -1
+  - first: 46
+    second: 89
+    amount: -1
+  - first: 46
+    second: 199
+    amount: -1
+  - first: 46
+    second: 210
+    amount: -1
+  - first: 46
+    second: 211
+    amount: -1
+  - first: 46
+    second: 212
+    amount: -1
+  - first: 46
+    second: 213
+    amount: -1
+  - first: 46
+    second: 214
+    amount: -1
+  - first: 46
+    second: 216
+    amount: -1
+  - first: 46
+    second: 221
+    amount: -1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

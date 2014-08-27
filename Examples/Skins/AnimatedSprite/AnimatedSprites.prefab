@@ -1,0 +1,1298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: AnimatedSprites
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f514313262e3d141ad017b60809752a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 4ae22417a5125b14c9fe4517922c9347, type: 2}
+  items:
+  - name: BLANK_TEXTURE
+    region:
+      serializedVersion: 2
+      x: .293457031
+      y: .838867188
+      width: .0048828125
+      height: .0048828125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 10, y: 10}
+    textureGUID: e429c1812dd89884bb925ab0ad3da220
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button1
+    region:
+      serializedVersion: 2
+      x: .608398438
+      y: .671386719
+      width: .0625
+      height: .0620117188
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 127}
+    textureGUID: f1ab322286f533a4ab0f17824e729054
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button2
+    region:
+      serializedVersion: 2
+      x: .608398438
+      y: .733886719
+      width: .0625
+      height: .0620117188
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 127}
+    textureGUID: 99c8d977fb3fed147ad62e5d426d3bb8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button3
+    region:
+      serializedVersion: 2
+      x: .629394531
+      y: .796386719
+      width: .0625
+      height: .0620117188
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 127}
+    textureGUID: ae6f84bb842057a439660459475addd2
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button4
+    region:
+      serializedVersion: 2
+      x: .629394531
+      y: .858886719
+      width: .0625
+      height: .0620117188
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 127}
+    textureGUID: 953265603b201e9418031767e0a17de8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button5
+    region:
+      serializedVersion: 2
+      x: .629394531
+      y: .921386719
+      width: .0625
+      height: .0620117188
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 127}
+    textureGUID: aca0bb53eab857b46b05d0f633353d92
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button6
+    region:
+      serializedVersion: 2
+      x: .671386719
+      y: .545410156
+      width: .0625
+      height: .0620117188
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 127}
+    textureGUID: e339f465f0b7422478d093436fd2d067
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button7
+    region:
+      serializedVersion: 2
+      x: .712890625
+      y: .293457031
+      width: .0625
+      height: .0620117188
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 127}
+    textureGUID: 875545567a42d37438de2054b18e0087
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button8
+    region:
+      serializedVersion: 2
+      x: .712890625
+      y: .355957031
+      width: .0625
+      height: .0620117188
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 127}
+    textureGUID: 2c0df9826076e1b4682d65ed9b0f4aba
+    deleted: 0
+    texture: {fileID: 0}
+  - name: button9
+    region:
+      serializedVersion: 2
+      x: .712890625
+      y: .418457031
+      width: .0625
+      height: .0620117188
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 127}
+    textureGUID: 1bccac41076302a4b886175d5fab4b5a
+    deleted: 0
+    texture: {fileID: 0}
+  - name: gear0
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .29296875
+      height: .29296875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 600, y: 600}
+    textureGUID: 74ed19da32126bb4fba8e907492a5bca
+    deleted: 0
+    texture: {fileID: 0}
+  - name: gear1
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .293457031
+      width: .29296875
+      height: .29296875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 600, y: 600}
+    textureGUID: c0361f3fbdbdb5c448ff0856da3f536f
+    deleted: 0
+    texture: {fileID: 0}
+  - name: gear2
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .586914062
+      width: .29296875
+      height: .29296875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 600, y: 600}
+    textureGUID: 352d76eebead7fc409031d76d22040bc
+    deleted: 0
+    texture: {fileID: 0}
+  - name: gear3
+    region:
+      serializedVersion: 2
+      x: .293457031
+      y: 0
+      width: .29296875
+      height: .29296875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 600, y: 600}
+    textureGUID: 2d879400c2ef5c54c9e341a73be21d86
+    deleted: 0
+    texture: {fileID: 0}
+  - name: gear4
+    region:
+      serializedVersion: 2
+      x: .586914062
+      y: 0
+      width: .29296875
+      height: .29296875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 600, y: 600}
+    textureGUID: ebb48586b85545b40b3ee4c23592d5d6
+    deleted: 0
+    texture: {fileID: 0}
+  - name: gear5
+    region:
+      serializedVersion: 2
+      x: .293457031
+      y: .293457031
+      width: .29296875
+      height: .29296875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 600, y: 600}
+    textureGUID: 803eba36429a4d345bd61289d782e253
+    deleted: 0
+    texture: {fileID: 0}
+  - name: OpenSans-Semibold-18px
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .880371094
+      width: .125
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 256, y: 128}
+    textureGUID: 32c0de4ee3ffe9c4f95bd22bfbfb9b01
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract0
+    region:
+      serializedVersion: 2
+      x: .125488281
+      y: .880371094
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: a3f4c14bbb4cc2344a0c06184d4819e8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract1
+    region:
+      serializedVersion: 2
+      x: .188476562
+      y: .880371094
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 8fa146fe8cd3a284a95363152a9da928
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract10
+    region:
+      serializedVersion: 2
+      x: .251464844
+      y: .880371094
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 0eebb199ce69c794fa904e7798f558d9
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract11
+    region:
+      serializedVersion: 2
+      x: .880371094
+      y: 0
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 495d0c3e4bd9f9c48b0fc22a05daf32c
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract12
+    region:
+      serializedVersion: 2
+      x: .880371094
+      y: .0629882812
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 7d6ea0a9f649e844c904894b3b486947
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract13
+    region:
+      serializedVersion: 2
+      x: .880371094
+      y: .125976562
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: e946f9bb29ca43945a358d7ec94270ab
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract14
+    region:
+      serializedVersion: 2
+      x: .880371094
+      y: .188964844
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 37cb273ff74ee2d4e958d8957689b56e
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract15
+    region:
+      serializedVersion: 2
+      x: .880371094
+      y: .251953125
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 6dbcdeca58f732d4cacb2c65fea818e5
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract16
+    region:
+      serializedVersion: 2
+      x: .293457031
+      y: .586914062
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 83a473c9636545643ab643741b7fc02d
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract17
+    region:
+      serializedVersion: 2
+      x: .293457031
+      y: .649902344
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 99d9524cdfcf88045b3b2e1c9e0eb3c7
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract18
+    region:
+      serializedVersion: 2
+      x: .293457031
+      y: .712890625
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: e853b111514f479478addca28b0dd060
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract19
+    region:
+      serializedVersion: 2
+      x: .293457031
+      y: .775878906
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: dd5ae07d144a474469658dd944504ee4
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract2
+    region:
+      serializedVersion: 2
+      x: .314453125
+      y: .838867188
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: b05baf33422a3324fb64f31fa88c1770
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract20
+    region:
+      serializedVersion: 2
+      x: .314453125
+      y: .901855469
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: b2213618d39a35e4fa15bd9989914e44
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract21
+    region:
+      serializedVersion: 2
+      x: .356445312
+      y: .586914062
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 80480201f3949c843ba7e1fd0024603b
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract22
+    region:
+      serializedVersion: 2
+      x: .356445312
+      y: .649902344
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: acddfa9a8d8f4ee479de8cd99fa66625
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract23
+    region:
+      serializedVersion: 2
+      x: .356445312
+      y: .712890625
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 97dc1186879e46646920a5a2a1e17961
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract24
+    region:
+      serializedVersion: 2
+      x: .356445312
+      y: .775878906
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 2b5253b53feb7b340876125cf3ad2724
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract25
+    region:
+      serializedVersion: 2
+      x: .377441406
+      y: .838867188
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: c79d1662d21f00440a74418fedbde883
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract26
+    region:
+      serializedVersion: 2
+      x: .377441406
+      y: .901855469
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 172b01300ce3fdb44b2551b80f0f67ad
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract27
+    region:
+      serializedVersion: 2
+      x: .419433594
+      y: .586914062
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 3018415bc9192d1419eebd7c344f75c8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract28
+    region:
+      serializedVersion: 2
+      x: .419433594
+      y: .649902344
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 60fdd23fcc46bb34fb6aaadc46ec8805
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract29
+    region:
+      serializedVersion: 2
+      x: .419433594
+      y: .712890625
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: dd299841fee77d5499fd54c0ce6ff74a
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract3
+    region:
+      serializedVersion: 2
+      x: .419433594
+      y: .775878906
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 15fdb7205664abb4bb74c582cfd67bf8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract30
+    region:
+      serializedVersion: 2
+      x: .440429688
+      y: .838867188
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: fdb04145b1d46d04f9249655574b12eb
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract31
+    region:
+      serializedVersion: 2
+      x: .440429688
+      y: .901855469
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 48921f1695f480548bc208fd1c321f55
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract32
+    region:
+      serializedVersion: 2
+      x: .482421875
+      y: .586914062
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: c4c497e4605085d4799e3591c6d0ff18
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract33
+    region:
+      serializedVersion: 2
+      x: .482421875
+      y: .649902344
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 3db0e6446fd11094fb18dc7bc75a95fc
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract34
+    region:
+      serializedVersion: 2
+      x: .482421875
+      y: .712890625
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 9ebe359b95115ab4d96001e86faf578e
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract35
+    region:
+      serializedVersion: 2
+      x: .482421875
+      y: .775878906
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 27bb0fe488ad2c844bb607520a400e1c
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract36
+    region:
+      serializedVersion: 2
+      x: .503417969
+      y: .838867188
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 4809250d9e308ac4eaeffe108b44abe8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract37
+    region:
+      serializedVersion: 2
+      x: .503417969
+      y: .901855469
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: ae5b667546b6d5240acad3363f2ab187
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract38
+    region:
+      serializedVersion: 2
+      x: .545410156
+      y: .586914062
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 2b4c2a3e25eeb754bab39d15d02d4f71
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract39
+    region:
+      serializedVersion: 2
+      x: .545410156
+      y: .649902344
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 8305c844b28f51f45856453f15f62b4d
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract4
+    region:
+      serializedVersion: 2
+      x: .545410156
+      y: .712890625
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: fe7e0729f8d3d9b49a93b147339a0084
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract40
+    region:
+      serializedVersion: 2
+      x: .545410156
+      y: .775878906
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 9d69a741b079eeb449f046c27d6ed4b0
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract41
+    region:
+      serializedVersion: 2
+      x: .56640625
+      y: .838867188
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: cc4ab16194b5eba4aa217ac87d1cabf8
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract42
+    region:
+      serializedVersion: 2
+      x: .56640625
+      y: .901855469
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 0eaacc5221ba0dd48a8fe2f4a7691b60
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract43
+    region:
+      serializedVersion: 2
+      x: .586914062
+      y: .293457031
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: e71137da9f5640649855b77adb7c6cec
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract44
+    region:
+      serializedVersion: 2
+      x: .586914062
+      y: .356445312
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 0c8cad31a548cf2469c7f984e163dba9
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract45
+    region:
+      serializedVersion: 2
+      x: .586914062
+      y: .419433594
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 0700e74dc526d8247bf9b1cacc110371
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract46
+    region:
+      serializedVersion: 2
+      x: .586914062
+      y: .482421875
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 03fa8258d7168404eb05e7eb48a3ffe0
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract47
+    region:
+      serializedVersion: 2
+      x: .608398438
+      y: .545410156
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 62e7dd9fd74352140a9ba24b6334c8b0
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract5
+    region:
+      serializedVersion: 2
+      x: .649902344
+      y: .293457031
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 719484fcdf171834eba3b36637dc2293
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract6
+    region:
+      serializedVersion: 2
+      x: .649902344
+      y: .356445312
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: bb4d800f1a3ecb748bda634c0020ad44
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract7
+    region:
+      serializedVersion: 2
+      x: .649902344
+      y: .419433594
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: b4b01dc83088c614097fb8254c72a8e5
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract8
+    region:
+      serializedVersion: 2
+      x: .649902344
+      y: .482421875
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 4a8d640038882c044ab2ec86399e7cd3
+    deleted: 0
+    texture: {fileID: 0}
+  - name: tesseract9
+    region:
+      serializedVersion: 2
+      x: .608398438
+      y: .608398438
+      width: .0625
+      height: .0625
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 128, y: 128}
+    textureGUID: 6c0c0be11b0c34944af749dca395a2e3
+    deleted: 0
+    texture: {fileID: 0}
+  - name: text1
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .983886719
+      width: .112792969
+      height: .015625
+    border:
+      m_Left: 15
+      m_Right: 15
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 231, y: 32}
+    textureGUID: 73cb4f5fdaa158045826196ac9744940
+    deleted: 0
+    texture: {fileID: 0}
+  - name: text2
+    region:
+      serializedVersion: 2
+      x: .11328125
+      y: .943359375
+      width: .112792969
+      height: .015625
+    border:
+      m_Left: 15
+      m_Right: 15
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 231, y: 32}
+    textureGUID: c452d398a8e08844c8f85972e9244456
+    deleted: 0
+    texture: {fileID: 0}
+  - name: text3
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .943359375
+      width: .112792969
+      height: .015625
+    border:
+      m_Left: 15
+      m_Right: 15
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 231, y: 32}
+    textureGUID: 43adcd8795cfbb844bd491f095601a17
+    deleted: 0
+    texture: {fileID: 0}
+  - name: text4
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .959472656
+      width: .112792969
+      height: .015625
+    border:
+      m_Left: 15
+      m_Right: 15
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 231, y: 32}
+    textureGUID: e2ad1f1b66cf9fb42bed0f35fc6bbf9f
+    deleted: 0
+    texture: {fileID: 0}
+  - name: text5
+    region:
+      serializedVersion: 2
+      x: .11328125
+      y: .959472656
+      width: .112792969
+      height: .015625
+    border:
+      m_Left: 15
+      m_Right: 15
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 231, y: 32}
+    textureGUID: 2fb774a4b3d757f48827109af4955f29
+    deleted: 0
+    texture: {fileID: 0}
+  - name: text6
+    region:
+      serializedVersion: 2
+      x: .11328125
+      y: .975585938
+      width: .112792969
+      height: .015625
+    border:
+      m_Left: 15
+      m_Right: 15
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 231, y: 32}
+    textureGUID: 08370a5990b3dfe4aac265e9478efcd5
+    deleted: 0
+    texture: {fileID: 0}
+  - name: text7
+    region:
+      serializedVersion: 2
+      x: .2265625
+      y: .983886719
+      width: .112792969
+      height: .015625
+    border:
+      m_Left: 15
+      m_Right: 15
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 231, y: 32}
+    textureGUID: e235d6d14a3f0414d9ae2656218ea7bb
+    deleted: 0
+    texture: {fileID: 0}
+  - name: text8
+    region:
+      serializedVersion: 2
+      x: .2265625
+      y: .96484375
+      width: .112792969
+      height: .015625
+    border:
+      m_Left: 15
+      m_Right: 15
+      m_Top: 14
+      m_Bottom: 14
+    rotated: 0
+    sizeInPixels: {x: 231, y: 32}
+    textureGUID: f9ef3ea305e67e04d8f424faf7da5f40
+    deleted: 0
+    texture: {fileID: 0}
+  generator: 0
+  imageFileGUID: 
+  dataFileGUID: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Touch Joystick Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f514313262e3d141ad017b60809752a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 176c0e4edf29e8a44ab742a517fd4f62, type: 2}
+  items:
+  - name: Crosshairs
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .6875
+      width: .0625
+      height: .125
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 64, y: 64}
+    textureGUID: 2a00ec0c91b7871429b579d3c403bc15
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Crouch
+    region:
+      serializedVersion: 2
+      x: .171875
+      y: 0
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: 2548655f6f5746e4d8e25b044f16fd1e
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Jump
+    region:
+      serializedVersion: 2
+      x: .171875
+      y: .328125
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: 29c6b2167263f8949b58835c414be814
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Mic
+    region:
+      serializedVersion: 2
+      x: .171875
+      y: .65625
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: c95eabfc663d0cc48b22ee22ff135a37
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Move
+    region:
+      serializedVersion: 2
+      x: .3359375
+      y: 0
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: 0a2ad5d29a3aadc4c838e8afab1f82ef
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Pause
+    region:
+      serializedVersion: 2
+      x: .3359375
+      y: .328125
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: ecae247d4c846e347a54e4f38f2914aa
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Radar_layer0
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .169921875
+      height: .33984375
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 174, y: 174}
+    textureGUID: 4f83b07293030ce4aa0701c3441c1f77
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Radar_layer1
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .34375
+      width: .169921875
+      height: .33984375
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 174, y: 174}
+    textureGUID: 4911a7b013b2714419d982c907d4db7b
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Reload
+    region:
+      serializedVersion: 2
+      x: .3359375
+      y: .65625
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: 748c03de75aa2324da8944a007de9529
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Scope
+    region:
+      serializedVersion: 2
+      x: .5
+      y: 0
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: 1567c9bd0a567a14490f450ea5bdbc89
+    deleted: 0
+    texture: {fileID: 0}
+  - name: ShootButton
+    region:
+      serializedVersion: 2
+      x: .5
+      y: .328125
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: 596c2ce6905041e4db95455ce66f35d7
+    deleted: 0
+    texture: {fileID: 0}
+  - name: Sprint
+    region:
+      serializedVersion: 2
+      x: .5
+      y: .65625
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: f893e9e0fd025a04f946687ee3a73a8f
+    deleted: 0
+    texture: {fileID: 0}
+  - name: TextChat
+    region:
+      serializedVersion: 2
+      x: .6640625
+      y: 0
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: 21d220ad2a1c552449cc16bc084b406d
+    deleted: 0
+    texture: {fileID: 0}
+  - name: TouchButton
+    region:
+      serializedVersion: 2
+      x: .828125
+      y: 0
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: 0cbc9818bca1c2a459b6e59b04f15fff
+    deleted: 0
+    texture: {fileID: 0}
+  - name: VoiceChat
+    region:
+      serializedVersion: 2
+      x: .6640625
+      y: .328125
+      width: .162109375
+      height: .32421875
+    border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    rotated: 0
+    sizeInPixels: {x: 166, y: 166}
+    textureGUID: ef6ab8ea861e7314c94eccf251db07d8
+    deleted: 0
+    texture: {fileID: 0}
+  generator: 0
+  imageFileGUID: 
+  dataFileGUID: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
