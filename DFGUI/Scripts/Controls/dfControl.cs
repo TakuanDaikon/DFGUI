@@ -5278,6 +5278,12 @@ public abstract class dfControl : MonoBehaviour, IDFControlHost, IComparable<dfC
 				if( anchorStyle.IsFlagSet( dfAnchorStyle.Right ) )
 				{
 					newSize.x = ( margins.right - margins.left ) * parentSize.x;
+
+					if( anchorStyle.IsFlagSet( dfAnchorStyle.MaintainAspect ) )
+					{
+						float aspect = (float)controlSize.y / (float)controlSize.x;
+						newSize.y = newSize.x * aspect;
+					}
 				}
 
 			}
@@ -5295,7 +5301,12 @@ public abstract class dfControl : MonoBehaviour, IDFControlHost, IComparable<dfC
 
 				newPosition.y = top;
 
-				if( anchorStyle.IsFlagSet( dfAnchorStyle.Bottom ) )
+				if( anchorStyle.IsFlagSet( dfAnchorStyle.MaintainAspect ) )
+				{
+					float aspect = (float)controlSize.y / (float)controlSize.x;
+					newSize.y = newSize.x * aspect;
+				}
+				else if( anchorStyle.IsFlagSet( dfAnchorStyle.Bottom ) )
 				{
 					newSize.y = ( margins.bottom - margins.top ) * parentSize.y;
 				}
