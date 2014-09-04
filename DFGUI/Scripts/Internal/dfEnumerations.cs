@@ -224,6 +224,8 @@ public enum dfAnchorStyle : int
 	CenterVertical = 128,
 	/// <summary>The control layout represents proportional dimensions</summary>
 	Proportional = 256,
+	/// <summary>The control layout represents proportional dimensions</summary>
+	MaintainAspect = 512,
 	/// <summary>The control is not anchored to any edges of its container.</summary>
 	None = 0
 }

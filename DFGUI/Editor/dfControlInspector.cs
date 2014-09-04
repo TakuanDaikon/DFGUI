@@ -1062,6 +1062,9 @@ public class dfControlInspector : Editor
 					var proportional = EditorGUILayout.Toggle( "Proportional", retVal.IsFlagSet( dfAnchorStyle.Proportional ) );
 					retVal = retVal.SetFlag( dfAnchorStyle.Proportional, proportional );
 
+					var aspect = EditorGUILayout.Toggle( "Maintain Aspect", retVal.IsFlagSet( dfAnchorStyle.MaintainAspect ) );
+					retVal = retVal.SetFlag( dfAnchorStyle.MaintainAspect, aspect );
+
 				}
 				GUILayout.EndVertical();
 
