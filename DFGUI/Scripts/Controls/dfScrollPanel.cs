@@ -1116,6 +1116,20 @@ public class dfScrollPanel : dfControl
         //# I'm going to work on getting the ScrollBar and the ScrollPanel to reflect these changes. So far, no luck.
         float startScrollAtIndex = startIndex;
 
+        // look and see if the new backing list data is smaller than the existing tiles set?
+
+        if (data.Tiles.Count > data.BackingList.Count)
+        {
+            int start = data.BackingList.Count;
+            int numItems = (data.Tiles.Count - data.BackingList.Count);
+            for (int i = start; i < start + numItems; ++i)
+            {
+                cleanupTile(data.Tiles[i]);
+            }
+            data.Tiles.RemoveRange(start,numItems);
+        }
+
+
         //# Loop throug all of our tiles (or potential tiles) and place them evenly on the stage.
         for (var i = 0; i < maxTiles && i < backingList.Count && startIndex <= backingList.Count; i++)
         {
@@ -1626,6 +1640,12 @@ public class dfScrollPanel : dfControl
 
         return tile;
     }
+
+    public void cleanupTile(IDFVirtualScrollingTile tile)
+    {
+        Destroy(tile.GetDfPanel().gameObject);
+    }
+
 
     private bool isVerticalFlow()
     {
